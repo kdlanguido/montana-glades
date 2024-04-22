@@ -1,0 +1,16 @@
+.nav-links {
+    height:60px;
+    background: #D2E0C8;
+}
+
+.nav-link-button {
+    outline: 0 !important;
+    border: 0 !important;
+    height:100%;
+    text-transform: uppercase;
+    font-weight:600;
+}
+
+.nav-link-button:hover {
+    background: #c1d7b1;
+}

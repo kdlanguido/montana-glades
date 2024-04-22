@@ -1,0 +1,96 @@
+.nav-tabs {
+    border: 0 !important;
+}
+
+.nav-tab-icons {
+    height: 40px;
+    width: 40px;
+}
+
+.nav-tab-buttons {
+    color: #3678AC;
+    background: #E7EBF4;
+    height: 60px;
+    width: 100px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.nav-tab-buttons.active {
+    width: 200px;
+    background: #fff !important;
+    color: #3678ac !important;
+}
+
+.tab-overview-logo {
+    text-align: center;
+}
+
+.tab-overview-logo img {
+    height: 200px;
+}
+
+.tab-overview-img-main {
+    height: 85vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.overview-side-buttons {
+    top: 40%;
+}
+
+.overview-side-buttons {
+    background: #000000bc !important;
+    color: white !important;
+    text-align: center;
+    font-size: 20px;
+    width: 60px;
+    padding: 15px;
+}
+
+.overview-side-buttons i {
+    font-size: 20px;
+}
+
+.overview-side-buttons span {
+    display: none;
+}
+
+#btnSidebuttonShare {
+    top: 30%;
+}
+
+#btnSidebuttonFullscreen {
+    top: 38%;
+
+}
+
+
+/* SPLIDE */
+
+.splide__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.splide__slide {
+    opacity: 0.6;
+}
+
+.splide__slide.is-active {
+    opacity: 1;
+    border: 1px solid #fff !important;
+}
+
+.splide {
+    margin: auto
+}
+
+#image-carousel {
+    background: #00000089;
+}

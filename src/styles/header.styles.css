@@ -1,0 +1,21 @@
+.header {
+    background: #252532 !important;
+    color: #fff;
+    padding: 20px 50px !important;
+}
+
+.header-logo {
+    height: 60px !important;
+}
+
+.header-right-panel{
+    font-size: 12px !important;
+}
+
+.header-icon-big {
+    font-size: 25px !important;
+}
+
+.header-icon-socials{
+    font-size:17px !important
+}

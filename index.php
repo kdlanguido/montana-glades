@@ -10,7 +10,9 @@
 
 <body>
 
-    sample page
+    <?php
+        
+    ?>
 
 
     <script src="src/libs/bootstrap.js"></script>

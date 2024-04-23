@@ -8,22 +8,30 @@ $(document).ready(() => {
 
 })
 
-const loadSplideImages = async () => {
-    await new Splide('.splide', {
-        fixedWidth: 160,
-        fixedHeight: 120,
-        width: '500px',
-        gap: 8,
+const loadSplideImages = () => {
+
+    var main = new Splide('#main-carousel', {
+        type: 'fade',
+        rewind: true,
+        pagination: false,
+        arrows: false,
+        height:'50vh',
+        width:'100%'
+    });
+
+    var thumbnails = new Splide('#thumbnail-carousel', {
+        fixedWidth: '10vw',
+        fixedHeight: 'auto',
+        width:'42%',
+        gap: 10,
         rewind: true,
         pagination: false,
         isNavigation: true,
-        breakpoints: {
-            600: {
-                fixedWidth: 60,
-                fixedHeight: 44,
-            },
-        },
-    }).mount();
+    });
+
+    main.sync(thumbnails);
+    main.mount();
+    thumbnails.mount();
 }
 
 const splideNavigate = () => {

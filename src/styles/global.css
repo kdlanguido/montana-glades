@@ -10,3 +10,24 @@
 ::-webkit-scrollbar-thumb:hover {
     background-color: #555;
 }
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: "Lato", sans-serif !important;
+    font-variant: tabular-nums !important;
+}
+
+.splide__arrow svg {
+    fill: #D2E0C8;
+    height: 1em;
+    transition: fill .2s linear;
+    width: 1em;
+}
+
+.splide__track--nav>.splide__list>.splide__slide.is-active {
+    border: 2px solid #D2E0C8;
+}

@@ -10,19 +10,20 @@
 .nav-tab-buttons {
     color: #3678AC;
     background: #E7EBF4;
-    height: 60px;
-    width: 100px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 50px;
+    width: 130px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
+    font-size: 14px;
+    font-weight: 400
 }
 
 .nav-tab-buttons.active {
-    width: 200px;
+    width: 300px;
     background: #fff !important;
     color: #3678ac !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .tab-overview-logo {
@@ -30,11 +31,12 @@
 }
 
 .tab-overview-logo img {
-    height: 200px;
+    margin-top: 20px;
+    height: 100px;
 }
 
 .tab-overview-img-main {
-    height: 85vh;
+    height: 50vh;
     width: 100%;
     object-fit: cover;
 }
@@ -44,12 +46,13 @@
 }
 
 .overview-side-buttons {
-    background: #000000bc !important;
+    background: rgba(0, 0, 0, 0.5);
     color: white !important;
     text-align: center;
     font-size: 20px;
-    width: 60px;
-    padding: 15px;
+    width: 49px;
+    padding: 8px;
+    border-radius: 2px !important;
 }
 
 .overview-side-buttons i {
@@ -61,14 +64,13 @@
 }
 
 #btnSidebuttonShare {
-    top: 30%;
+    top: 20%;
 }
 
 #btnSidebuttonFullscreen {
-    top: 38%;
+    top: 32%;
 
 }
-
 
 /* SPLIDE */
 
@@ -82,7 +84,7 @@
     opacity: 0.6;
 }
 
-.splide__slide.is-active {
+#thumbnail-splide.splide__slide.is-active {
     opacity: 1;
     border: 1px solid #fff !important;
 }
@@ -92,5 +94,74 @@
 }
 
 #image-carousel {
-    background: #00000089;
+    background: #000000bb;
+}
+
+
+.tab-header-1 h5 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #2F72A9;
+    text-align: left;
+    line-height: 35px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+}
+
+.tab-header-1 p {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(88, 99, 126);
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.tab-info h5 {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(88, 99, 126);
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-top: 8px;
+}
+
+
+.tab-info p {
+    font-size: 14px;
+    color: rgb(128, 128, 128);
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.tab-info-2 h1 {
+    color: #2F72A9;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.tab-info-2 button {
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 4px;
+    margin: 2.5px;
+    padding: 5px 19px;
+    background: transparent;
+    font-size: 14px;
+    color: rgb(88, 99, 126);
+    text-align: left;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tab-price h1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(88, 99, 126);
+    margin-bottom: 0;
+}
+
+.tab-price p {
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(130, 154, 179);
 }

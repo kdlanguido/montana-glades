@@ -9,7 +9,7 @@ $(document).ready(() => {
 
     $('.location-btn-gotomaps').mouseover(function () {
         $(this).find('i').css('color', '#fff')
-    }).mouseout(function(){
+    }).mouseout(function () {
         $(this).find('i').css('color', '#2F72A9')
     })
 
@@ -40,6 +40,35 @@ const loadSplideImages = () => {
     main.mount();
     thumbnails.mount();
 }
+
+
+
+function loadAmenitiesImages() {
+
+    var main = new Splide('#amenities-main-carousel', {
+        type: 'fade',
+        rewind: true,
+        pagination: false,
+        arrows: false,
+        height: '50vh',
+        width: '100%'
+    });
+
+    var thumbnails = new Splide('#amenities-thumbnail-carousel', {
+        fixedWidth: '10vw',
+        fixedHeight: 'auto',
+        width: '42%',
+        gap: 10,
+        rewind: true,
+        pagination: false,
+        isNavigation: true,
+    });
+
+    main.sync(thumbnails);
+    main.mount();
+    thumbnails.mount();
+}
+
 
 const splideNavigate = () => {
     $('.carousel-img').click(function () {
@@ -86,6 +115,16 @@ const tabClick = () => {
         const targetBottomTab = $(this).attr('aria-bottom')
 
         $(targetBottomTab).addClass('show').addClass('active')
+
+        const clickedFunctionName = $(this).attr('aria-function')
+
+        console.log(clickedFunctionName)
+
+        if (clickedFunctionName && window[clickedFunctionName]) {
+            window[clickedFunctionName]();
+
+        }
+
     })
 
 }

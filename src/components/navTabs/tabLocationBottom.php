@@ -1,4 +1,4 @@
-<div class="target-bottom-tabs tab-pane fade show active p-5 m-0 position-relative" id="tabLocationBottom" role="tabpanel">
+<div class="target-bottom-tabs tab-pane fade p-5 m-0 position-relative" id="tabLocationBottom" role="tabpanel">
 
     <section class="tab-header-1">
         <h6>ARDIA VERMOSA</h6>

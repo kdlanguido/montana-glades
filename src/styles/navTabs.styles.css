@@ -97,6 +97,11 @@
     background: #000000bb;
 }
 
+#amenities-image-carousel {
+    background: #000000bb;
+
+}
+
 .tab-header-1 h6 {
     font-size: 18px;
     color: rgba(88, 99, 126, 0.6);
@@ -199,3 +204,42 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+.accordion {
+    font-size: 14px;
+}
+
+.accordion-item {
+    color: rgba(0, 0, 0, .65) !important
+}
+
+.accordion-button {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(88, 99, 126);
+    text-align: left;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #ECF2FC !important;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: none;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-item {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+
+.nav-item button {
+    width:98%;
+}

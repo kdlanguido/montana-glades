@@ -3,30 +3,28 @@
     <div class="tab-content border-0">
         <?php
         include "src/components/navTabs/tabOverview.php";
+        include "src/components/navTabs/tabLocation.php";
         ?>
-        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
     </div>
 
     <ul class="nav nav-pills px-2">
         <li class="nav-item">
-            <button data-bs-target="#tabOverview" class="nav-tab-buttons nav-link me-2 active" aria-info="Overview" data-bs-toggle="tab" type="button" role="tab">
+            <button data-bs-target="#tabOverview" class="nav-tab-buttons nav-link me-2 active" aria-info="Overview" aria-bottom="#tabOverviewBottom" data-bs-toggle="tab" type="button" role="tab">
                 <i class="fa-solid fa-house-chimney"></i>
             </button>
         </li>
         <li class="nav-item">
-            <button data-bs-target="#tabLocation" class="nav-tab-buttons nav-link me-2" aria-info="Location" data-bs-toggle="tab" type="button" role="tab">
+            <button data-bs-target="#tabLocation" class="nav-tab-buttons nav-link me-2" aria-info="Location" aria-bottom="#tabLocationBottom" data-bs-toggle="tab" type="button" role="tab">
                 <i class="fa-solid fa-map-location-dot"></i>
             </button>
         </li>
         <li class="nav-item">
-            <button data-bs-target="#tabAmenities" class="nav-tab-buttons nav-link me-2" aria-info="Amenities" data-bs-toggle="tab" type="button" role="tab">
+            <button data-bs-target="#tabAmenities" class="nav-tab-buttons nav-link me-2" aria-info="Amenities" aria-bottom="" data-bs-toggle="tab" type="button" role="tab">
                 <i class="fa-solid fa-faucet-drip"></i>
             </button>
         </li>
         <li class="nav-item">
-            <button data-bs-target="#tabPlans" class="nav-tab-buttons nav-link me-2" aria-info="Plans" data-bs-toggle="tab" type="button" role="tab">
+            <button data-bs-target="#tabPlans" class="nav-tab-buttons nav-link me-2" aria-info="Plans" aria-bottom="" data-bs-toggle="tab" type="button" role="tab">
                 <i class="fa-solid fa-swatchbook"></i>
             </button>
         </li>
@@ -46,10 +44,8 @@
     <div class="tab-content border-0">
         <?php
         include "src/components/navTabs/tabOverviewBottom.php";
+        include "src/components/navTabs/tabLocationBottom.php";
         ?>
-        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
     </div>
 
 

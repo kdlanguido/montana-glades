@@ -6,6 +6,13 @@ $(document).ready(() => {
     sideButtonHover();
     tabClick();
 
+
+    $('.location-btn-gotomaps').mouseover(function () {
+        $(this).find('i').css('color', '#fff')
+    }).mouseout(function(){
+        $(this).find('i').css('color', '#2F72A9')
+    })
+
 })
 
 const loadSplideImages = () => {
@@ -15,14 +22,14 @@ const loadSplideImages = () => {
         rewind: true,
         pagination: false,
         arrows: false,
-        height:'50vh',
-        width:'100%'
+        height: '50vh',
+        width: '100%'
     });
 
     var thumbnails = new Splide('#thumbnail-carousel', {
         fixedWidth: '10vw',
         fixedHeight: 'auto',
-        width:'42%',
+        width: '42%',
         gap: 10,
         rewind: true,
         pagination: false,
@@ -69,12 +76,16 @@ const tabFunctionality = () => {
 }
 
 const tabClick = () => {
+
     $('.nav-tab-buttons').click(function () {
+
         tabFunctionality()
 
-        $('.target-bottom-tabs').hide()
-        const targetBottomTab = $('.nav-tab-buttons').attr('data-bs-target-bottom')
-        $(targetBottomTab).show()
+        $('.target-bottom-tabs').removeClass('show').removeClass('active')
+
+        const targetBottomTab = $(this).attr('aria-bottom')
+
+        $(targetBottomTab).addClass('show').addClass('active')
     })
 
 }

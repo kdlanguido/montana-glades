@@ -97,9 +97,17 @@
     background: #000000bb;
 }
 
+.tab-header-1 h6 {
+    font-size: 18px;
+    color: rgba(88, 99, 126, 0.6);
+    letter-spacing: 0.39px;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0px;
+}
 
 .tab-header-1 h5 {
-    font-size: 35px;
+    font-size: 28px;
     font-weight: bold;
     color: #2F72A9;
     text-align: left;
@@ -109,7 +117,7 @@
 }
 
 .tab-header-1 p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: rgb(88, 99, 126);
     letter-spacing: 0.3px;
@@ -147,10 +155,17 @@
     padding: 5px 19px;
     background: transparent;
     font-size: 14px;
-    color: rgb(88, 99, 126);
+    color: #829ab3 !important;
     text-align: left;
     font-weight: bold;
     text-decoration: none;
+}
+
+.tab-info-2 button:hover {
+    background: #2F72A9;
+    color: #fff !important;
+    border: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .tab-price h1 {
@@ -165,3 +180,22 @@
     font-weight: 400;
     color: rgb(130, 154, 179);
 }
+
+.location-btn-gotomaps {
+    font-size: 14px !important;
+    color: rgb(88, 99, 126);
+}
+
+
+.location-btn-gotomaps i {
+    color: #2F72A9;
+    font-size: 12px !important;
+}
+
+.location-btn-gotomaps:hover {
+    background: #2F72A9;
+    color: #fff !important;
+    border: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+

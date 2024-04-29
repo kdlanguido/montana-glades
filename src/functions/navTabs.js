@@ -22,7 +22,7 @@ const loadSplideImages = () => {
         rewind: true,
         pagination: false,
         arrows: false,
-        height: '50vh',
+        height: '70vh',
         width: '100%'
     });
 
@@ -40,8 +40,6 @@ const loadSplideImages = () => {
     main.mount();
     thumbnails.mount();
 }
-
-
 
 function loadAmenitiesImages() {
 
@@ -68,7 +66,6 @@ function loadAmenitiesImages() {
     main.mount();
     thumbnails.mount();
 }
-
 
 const splideNavigate = () => {
     $('.carousel-img').click(function () {

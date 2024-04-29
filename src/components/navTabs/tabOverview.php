@@ -18,40 +18,16 @@
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel1.png">
+                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131606/overview/MG_Clubhouse_Rendered_2_xdk7cm.png">
                     </li>
                     <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel2.jpeg">
+                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131607/overview/Family_Clapping_Main_Flier_pldpzq.jpg">
                     </li>
                     <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel3.jpg">
+                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131608/overview/Village_Security_Entrance_j3coho.jpg">
                     </li>
                     <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel4.jpg">
-                    </li>
-                    <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel5.jpg">
-                    </li>
-                    <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel6.jpeg">
-                    </li>
-                    <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel7.jpg">
-                    </li>
-                    <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel8.jpg">
-                    </li>
-                    <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel9.jpeg">
-                    </li>
-                    <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel10.jpg">
-                    </li>
-                    <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel11.jpeg">
-                    </li>
-                    <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel12.jpg">
+                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131605/overview/Biking_Lifestyle_mdetep.jpg">
                     </li>
                 </ul>
         </section>
@@ -61,40 +37,16 @@
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel1.png">
+                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131606/overview/MG_Clubhouse_Rendered_2_xdk7cm.png">
                         </li>
                         <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel2.jpeg">
+                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131607/overview/Family_Clapping_Main_Flier_pldpzq.jpg">
                         </li>
                         <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel3.jpg">
+                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131608/overview/Village_Security_Entrance_j3coho.jpg">
                         </li>
                         <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel4.jpg">
-                        </li>
-                        <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel5.jpg">
-                        </li>
-                        <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel6.jpeg">
-                        </li>
-                        <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel7.jpg">
-                        </li>
-                        <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel8.jpg">
-                        </li>
-                        <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel9.jpeg">
-                        </li>
-                        <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel10.jpg">
-                        </li>
-                        <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel11.jpeg">
-                        </li>
-                        <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel12.jpg">
+                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131605/overview/Biking_Lifestyle_mdetep.jpg">
                         </li>
                     </ul>
                 </div>

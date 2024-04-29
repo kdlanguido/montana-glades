@@ -18,25 +18,25 @@
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel6.jpeg">
+                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131608/Village_Security_Entrance_j3coho.jpg">
                     </li>
                     <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel7.jpg">
+                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131608/Village_Security_Entrance_j3coho.jpg">
                     </li>
                     <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel8.jpg">
+                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131608/Village_Security_Entrance_j3coho.jpg">
                     </li>
                     <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel9.jpeg">
+                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131608/Village_Security_Entrance_j3coho.jpg">
                     </li>
                     <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel10.jpg">
+                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131608/Village_Security_Entrance_j3coho.jpg">
                     </li>
                     <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel11.jpeg">
+                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131608/Village_Security_Entrance_j3coho.jpg">
                     </li>
                     <li class="splide__slide me-1">
-                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel12.jpg">
+                        <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131608/Village_Security_Entrance_j3coho.jpg">
                     </li>
                 </ul>
         </section>
@@ -46,25 +46,25 @@
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel6.jpeg">
+                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131608/Village_Security_Entrance_j3coho.jpg">
                         </li>
                         <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel7.jpg">
+                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131608/Village_Security_Entrance_j3coho.jpg">
                         </li>
                         <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel8.jpg">
+                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131608/Village_Security_Entrance_j3coho.jpg">
                         </li>
                         <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel9.jpeg">
+                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131608/Village_Security_Entrance_j3coho.jpg">
                         </li>
                         <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel10.jpg">
+                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131608/Village_Security_Entrance_j3coho.jpg">
                         </li>
                         <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel11.jpeg">
+                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131608/Village_Security_Entrance_j3coho.jpg">
                         </li>
                         <li class="splide__slide me-1">
-                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="src/static/carousel12.jpg">
+                            <img class="carousel-img" aria-text="Gate Entance (Artist Perspective)" src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714131608/Village_Security_Entrance_j3coho.jpg">
                         </li>
                     </ul>
                 </div>

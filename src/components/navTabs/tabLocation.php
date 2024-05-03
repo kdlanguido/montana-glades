@@ -1,3 +1,3 @@
 <div class="tab-pane fade p-0 m-0 position-relative" id="tabLocation" role="tabpanel">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.150725983087!2d121.05385741129194!3d14.533369678659277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c969a483c94b%3A0x2d00283b8fc89124!2sTitan%20Arms%20Taguig%20HQ!5e0!3m2!1sen!2sph!4v1713868518330!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.150725983087!2d121.05385741129194!3d14.533369678659277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c969a483c94b%3A0x2d00283b8fc89124!2sTitan%20Arms%20Taguig%20HQ!5e0!3m2!1sen!2sph!4v1713868518330!5m2!1sen!2sph" width="100%" height="650" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>

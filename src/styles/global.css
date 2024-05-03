@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'lato';
+    src: url('../libs/lato.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -14,11 +23,12 @@
 html {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
+
 }
 
 body {
-    font-family: "Lato", sans-serif !important;
-    font-variant: tabular-nums !important;
+    font-family: lato, sans-serif !important;
+    height: 100vh;
 }
 
 .splide__arrow svg {
@@ -30,4 +40,60 @@ body {
 
 .splide__track--nav>.splide__list>.splide__slide.is-active {
     border: 2px solid #D2E0C8;
+}
+
+#loading-page {
+    display: flex;
+    background: #A2C850 !important;
+
+}
+
+.loader {
+    height: 30px;
+    aspect-ratio: 2.5;
+    --_g: no-repeat radial-gradient(farthest-side, #7B06B4 90%, #0000);
+    background: var(--_g), var(--_g), var(--_g), var(--_g);
+    background-size: 20% 50%;
+    animation: l44 1s infinite linear alternate;
+}
+
+@keyframes l44 {
+
+    0%,
+    5% {
+        background-position: calc(0*100%/3) 50%, calc(1*100%/3) 50%, calc(2*100%/3) 50%, calc(3*100%/3) 50%
+    }
+
+    12.5% {
+        background-position: calc(0*100%/3) 0, calc(1*100%/3) 50%, calc(2*100%/3) 50%, calc(3*100%/3) 50%
+    }
+
+    25% {
+        background-position: calc(0*100%/3) 0, calc(1*100%/3) 0, calc(2*100%/3) 50%, calc(3*100%/3) 50%
+    }
+
+    37.5% {
+        background-position: calc(0*100%/3) 100%, calc(1*100%/3) 0, calc(2*100%/3) 0, calc(3*100%/3) 50%
+    }
+
+    50% {
+        background-position: calc(0*100%/3) 100%, calc(1*100%/3) 100%, calc(2*100%/3) 0, calc(3*100%/3) 0
+    }
+
+    62.5% {
+        background-position: calc(0*100%/3) 50%, calc(1*100%/3) 100%, calc(2*100%/3) 100%, calc(3*100%/3) 0
+    }
+
+    75% {
+        background-position: calc(0*100%/3) 50%, calc(1*100%/3) 50%, calc(2*100%/3) 100%, calc(3*100%/3) 100%
+    }
+
+    87.5% {
+        background-position: calc(0*100%/3) 50%, calc(1*100%/3) 50%, calc(2*100%/3) 50%, calc(3*100%/3) 100%
+    }
+
+    95%,
+    100% {
+        background-position: calc(0*100%/3) 50%, calc(1*100%/3) 50%, calc(2*100%/3) 50%, calc(3*100%/3) 50%
+    }
 }

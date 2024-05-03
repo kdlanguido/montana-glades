@@ -19,6 +19,10 @@
     font-weight: 400
 }
 
+.nav-tab-buttons img {
+    filter: invert(39%) sepia(69%) saturate(444%) hue-rotate(163deg) brightness(96%) contrast(91%);
+}
+
 .nav-tab-buttons.active {
     width: 300px;
     background: #fff !important;
@@ -68,8 +72,7 @@
 }
 
 #btnSidebuttonFullscreen {
-    top: 32%;
-
+    top: 30%;
 }
 
 /* SPLIDE */
@@ -241,5 +244,15 @@
 
 
 .nav-item button {
-    width:98%;
+    width: 98%;
+}
+
+.toolbar-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+}
+
+.toolbar-btn i {
+   font-size: 15px;
 }

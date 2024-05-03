@@ -1,6 +1,7 @@
 .nav-links {
-    height:60px;
-    background: #D2E0C8;
+    margin-top:1.5rem;
+    height:30px;
+    background: transparent;
 }
 
 .nav-link-button {
@@ -12,5 +13,5 @@
 }
 
 .nav-link-button:hover {
-    background: #c1d7b1;
+    /* background: #c1d7b1; */
 }

@@ -13,8 +13,8 @@
 
         <p>
             Located in Vermosa, a 700-hectare mixed-use masterplan, life is fueled by the movement, wellness and active lifestyles. It is the perfect eco-friendly suburban community permeated by lush open spaces, vibrant parks, and interconnecting walkways built for your family's holistic lifestyles.
-
         </p>
+
         <br>
         <p>Project Address: Vermosa, Imus, Cavite</p>
 
@@ -37,7 +37,7 @@
 
     <section class="tab-info-2 mt-4">
         <h1>Online brochure</h1>
-        <button class="btn border rounded">Ardia Vermosa</button>
+        <button class="btn border rounded ms-0">Ardia Vermosa</button>
     </section>
 
 </div>

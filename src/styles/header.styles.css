@@ -1,14 +1,16 @@
 .header {
-    background: #252532 !important;
+    background-image: url('https://res.cloudinary.com/dlobngrjy/image/upload/v1714694913/global/MG_Background_gxx9sm_mlnosc.webp');
+    background-size: contain;
     color: #fff;
     padding: 20px 50px !important;
+    height:150px;
 }
 
 .header-logo {
     height: 60px !important;
 }
 
-.header-right-panel{
+.header-right-panel {
     font-size: 12px !important;
 }
 
@@ -16,6 +18,6 @@
     font-size: 25px !important;
 }
 
-.header-icon-socials{
-    font-size:17px !important
+.header-icon-socials {
+    font-size: 17px !important
 }

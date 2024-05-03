@@ -1,19 +1,53 @@
-$(document).ready(() => {
+const assetsListOverview = [
+    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694516/overview/MG_Clubhouse_Rendered_uohygj_arznuo_uirbkv.webp', 'MG Clubhouse'],
+    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694534/overview/MG_Clubhouse_Rendered_2_negxzv_b7wc0h_sb9324.webp', 'MG Clubhouse'],
+    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694567/overview/Exercising_Lifestyle_yqs5xb_ytl22y_zvgypb.webp', 'Exercising Lifestyle'],
+    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694456/overview/Biking_Happy_With_Road_zwmf14_kenvz1_imivmy.webp', 'Biking Happy With Road'],
+    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694603/overview/Village_Security_Entrance_vhpspo_owesbb_wm68hc.webp', 'Village is secured'],
+    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694638/overview/Family_Clapping_Main_Flier_wsdmyc_yfls4j_gwugvd.webp', 'Happy Family']
+];
 
+const assetsListAmenities = [
+    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693829/amenities/Swimming_Pool_Lifestyle_1_bsltfn_t5leta.webp', 'Swimming pool view'],
+    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693910/amenities/Meditation_Lifestyle_yjbvdl_nfs6to_dfl2mo.webp', 'Meditate freely'],
+    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693542/amenities/Basketball_Playing_t0xfix_cpqkjs_iaxebr.webp', 'Basketball court'],
+    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693959/amenities/Biking_Lifestyle_biqwwh_ue4omf_adrvyc.webp', 'Biking freely'],
+    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693999/amenities/Yoga_Nature_Lifestyle_fxnpsp_bwcul7_xi1y4c.webp', 'Yoga freely'],
+    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694182/amenities/Playground_Slide_with_Kid_zp9hin_andaui_jz5hna.webp', 'Playground slide with kid'],
+    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694075/amenities/Jogging_Lifestyle_fxlire_vtqlbb_da21g2.webp', 'Jogging lifestyle'],
+];
+
+interValRef = 0;
+interValRef = setInterval("checkState();", 100)
+
+amenitiesRendered = false;
+
+function checkState() {
+    if (document.readyState == 'complete') {
+        renderPage()
+        clearInterval(interValRef);
+    }
+}
+
+$(document).ready(function () {
+    renderOverviewAssets()
     tabFunctionality();
     loadSplideImages();
     splideNavigate();
     sideButtonHover();
     tabClick();
 
-
     $('.location-btn-gotomaps').mouseover(function () {
         $(this).find('i').css('color', '#fff')
     }).mouseout(function () {
         $(this).find('i').css('color', '#2F72A9')
     })
-
 })
+
+const renderPage = () => {
+    $('#loading-page').hide()
+    $('#main-content').show()
+}
 
 const loadSplideImages = () => {
 
@@ -22,14 +56,14 @@ const loadSplideImages = () => {
         rewind: true,
         pagination: false,
         arrows: false,
-        height: '70vh',
+        height: '80vh',
         width: '100%'
     });
 
     var thumbnails = new Splide('#thumbnail-carousel', {
-        fixedWidth: '10vw',
+        fixedWidth: '200px',
         fixedHeight: 'auto',
-        width: '42%',
+        width: '50%',
         gap: 10,
         rewind: true,
         pagination: false,
@@ -48,14 +82,14 @@ function loadAmenitiesImages() {
         rewind: true,
         pagination: false,
         arrows: false,
-        height: '50vh',
+        height: '80vh',
         width: '100%'
     });
 
     var thumbnails = new Splide('#amenities-thumbnail-carousel', {
-        fixedWidth: '10vw',
+        fixedWidth: '200px',
         fixedHeight: 'auto',
-        width: '42%',
+        width: '50%',
         gap: 10,
         rewind: true,
         pagination: false,
@@ -89,14 +123,14 @@ const sideButtonHover = () => {
 const tabFunctionality = () => {
 
     $('.nav-tab-buttons').find('span').remove()
-    $('.nav-tab-buttons').find('i').show()
+    $('.nav-tab-buttons').find('img').show()
 
     const activeTab = $('.nav-tab-buttons.active')
-    const activeTabIcon = $(activeTab).find('i')
+    const activeTabIcon = $(activeTab).find('img')
 
     activeTabIcon.hide();
 
-    const toAppend = `<span>${$(activeTab).attr('aria-info')}</span>`
+    const toAppend = `<span>${$(activeTab).attr('aria-information')}</span>`
 
     $(activeTab).append(toAppend)
 }
@@ -105,23 +139,99 @@ const tabClick = () => {
 
     $('.nav-tab-buttons').click(function () {
 
-        tabFunctionality()
+        if (!$(this).hasClass('no-tab')) {
 
-        $('.target-bottom-tabs').removeClass('show').removeClass('active')
+            tabFunctionality()
 
-        const targetBottomTab = $(this).attr('aria-bottom')
+            $('.target-bottom-tabs').removeClass('show').removeClass('active')
 
-        $(targetBottomTab).addClass('show').addClass('active')
+            const targetBottomTab = $(this).attr('aria-bottom')
 
-        const clickedFunctionName = $(this).attr('aria-function')
+            $(targetBottomTab).addClass('show').addClass('active')
 
-        console.log(clickedFunctionName)
+            const clickedFunctionName = $(this).attr('aria-function')
 
-        if (clickedFunctionName && window[clickedFunctionName]) {
-            window[clickedFunctionName]();
+            if (clickedFunctionName && window[clickedFunctionName]) {
+                window[clickedFunctionName]();
 
+            }
         }
-
     })
 
 }
+
+const renderOverviewAssets = () => {
+
+    var output = '';
+
+    assetsListOverview.map((image) => {
+        output += `
+            <li class="splide__slide me-1">
+                <img class="carousel-img" src="${image[0]}" alt="${image[1]}">
+            </li>
+        `
+    })
+
+    $('#overview-main-carousel-splide').html(output)
+    $('#overview-thumbnail-carousel-splide').html(output)
+}
+
+const getAmenitiesImages = () => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            var output = '';
+
+            assetsListAmenities.map((image) => {
+                output += `
+                    <li class="splide__slide me-1">
+                        <img class="carousel-img" src="${image[0]}" alt="${image[1]}">
+                    </li>
+                `
+            })
+
+            $('#amenities-main-carousel-splide').html(output)
+            $('#amenities-thumbnail-carousel-splide').html(output)
+
+            resolve(true);
+        }, 200);
+    })
+}
+
+
+
+function renderOverviewAmenities() {
+
+    if (!amenitiesRendered) {
+        $('#loading-page').show()
+        $('#main-content').hide()
+
+        getAmenitiesImages().then(() => {
+            loadAmenitiesImages();
+        }).then(() => {
+            setTimeout(() => {
+
+                $('#loading-page').hide()
+                $('#main-content').show()
+                amenitiesRendered = true;
+                
+            }, 500);
+
+        })
+    }
+}
+
+
+// const renderOverviewAmenities = () => {
+
+
+//     console.log(getAmenitiesImages())
+
+//     getAmenitiesImages().then(() => {
+//         loadAmenitiesImages();
+//     })
+
+
+
+
+//     // loadAmenitiesImages();
+// }

@@ -1,20 +1,40 @@
+// const assetsListOverview = [
+//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694516/overview/MG_Clubhouse_Rendered_uohygj_arznuo_uirbkv.webp', 'MG Clubhouse'],
+//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694534/overview/MG_Clubhouse_Rendered_2_negxzv_b7wc0h_sb9324.webp', 'MG Clubhouse'],
+//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694567/overview/Exercising_Lifestyle_yqs5xb_ytl22y_zvgypb.webp', 'Exercising Lifestyle'],
+//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694456/overview/Biking_Happy_With_Road_zwmf14_kenvz1_imivmy.webp', 'Biking Happy With Road'],
+//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694603/overview/Village_Security_Entrance_vhpspo_owesbb_wm68hc.webp', 'Village is secured'],
+//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694638/overview/Family_Clapping_Main_Flier_wsdmyc_yfls4j_gwugvd.webp', 'Happy Family']
+// ];
+
+// const assetsListAmenities = [
+//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693829/amenities/Swimming_Pool_Lifestyle_1_bsltfn_t5leta.webp', 'Swimming pool view'],
+//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693910/amenities/Meditation_Lifestyle_yjbvdl_nfs6to_dfl2mo.webp', 'Meditate freely'],
+//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693542/amenities/Basketball_Playing_t0xfix_cpqkjs_iaxebr.webp', 'Basketball court'],
+//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693959/amenities/Biking_Lifestyle_biqwwh_ue4omf_adrvyc.webp', 'Biking freely'],
+//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693999/amenities/Yoga_Nature_Lifestyle_fxnpsp_bwcul7_xi1y4c.webp', 'Yoga freely'],
+//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694182/amenities/Playground_Slide_with_Kid_zp9hin_andaui_jz5hna.webp', 'Playground slide with kid'],
+//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694075/amenities/Jogging_Lifestyle_fxlire_vtqlbb_da21g2.webp', 'Jogging lifestyle'],
+// ];
+
+
 const assetsListOverview = [
-    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694516/overview/MG_Clubhouse_Rendered_uohygj_arznuo_uirbkv.webp', 'MG Clubhouse'],
-    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694534/overview/MG_Clubhouse_Rendered_2_negxzv_b7wc0h_sb9324.webp', 'MG Clubhouse'],
-    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694567/overview/Exercising_Lifestyle_yqs5xb_ytl22y_zvgypb.webp', 'Exercising Lifestyle'],
-    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694456/overview/Biking_Happy_With_Road_zwmf14_kenvz1_imivmy.webp', 'Biking Happy With Road'],
-    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694603/overview/Village_Security_Entrance_vhpspo_owesbb_wm68hc.webp', 'Village is secured'],
-    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694638/overview/Family_Clapping_Main_Flier_wsdmyc_yfls4j_gwugvd.webp', 'Happy Family']
+    ['src/static/overview/MG_Clubhouse_Rendered_uohygj_arznuo_uirbkv.webp', 'MG Clubhouse'],
+    ['src/static/overview/MG_Clubhouse_Rendered_2_negxzv_b7wc0h_sb9324.webp', 'MG Clubhouse'],
+    ['src/static/overview/Exercising_Lifestyle_yqs5xb_ytl22y_zvgypb.webp', 'MG Clubhouse'],
+    ['src/static/overview/Biking_Happy_With_Road_zwmf14_kenvz1_imivmy.webp', 'MG Clubhouse'],
+    ['src/static/overview/Village_Security_Entrance_vhpspo_owesbb_wm68hc.webp', 'MG Clubhouse'],
+    ['src/static/overview/Family_Clapping_Main_Flier_wsdmyc_yfls4j_gwugvd.webp', 'MG Clubhouse'],
 ];
 
 const assetsListAmenities = [
-    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693829/amenities/Swimming_Pool_Lifestyle_1_bsltfn_t5leta.webp', 'Swimming pool view'],
-    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693910/amenities/Meditation_Lifestyle_yjbvdl_nfs6to_dfl2mo.webp', 'Meditate freely'],
-    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693542/amenities/Basketball_Playing_t0xfix_cpqkjs_iaxebr.webp', 'Basketball court'],
-    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693959/amenities/Biking_Lifestyle_biqwwh_ue4omf_adrvyc.webp', 'Biking freely'],
-    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693999/amenities/Yoga_Nature_Lifestyle_fxnpsp_bwcul7_xi1y4c.webp', 'Yoga freely'],
-    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694182/amenities/Playground_Slide_with_Kid_zp9hin_andaui_jz5hna.webp', 'Playground slide with kid'],
-    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694075/amenities/Jogging_Lifestyle_fxlire_vtqlbb_da21g2.webp', 'Jogging lifestyle'],
+    ['src/static/amenities/Swimming_Pool_Lifestyle_1_bsltfn_t5leta.webp', 'Swimming pool'],
+    ['src/static/amenities/Meditation_Lifestyle_yjbvdl_nfs6to_dfl2mo.webp', 'MG Clubhouse'],
+    ['src/static/amenities/Basketball_Playing_t0xfix_cpqkjs_iaxebr.webp', 'MG Clubhouse'],
+    ['src/static/amenities/Biking_Lifestyle_biqwwh_ue4omf_adrvyc.webp', 'MG Clubhouse'],
+    ['src/static/amenities/Yoga_Nature_Lifestyle_fxnpsp_bwcul7_xi1y4c.webp', 'MG Clubhouse'],
+    ['src/static/amenities/Playground_Slide_with_Kid_zp9hin_andaui_jz5hna.webp', 'MG Clubhouse'],
+    ['src/static/amenities/Jogging_Lifestyle_fxlire_vtqlbb_da21g2.webp', 'MG Clubhouse'],
 ];
 
 interValRef = 0;

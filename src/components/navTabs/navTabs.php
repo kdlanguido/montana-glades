@@ -22,7 +22,7 @@
                 </button>
             </li>
             <li class="nav-item">
-                <button id="tabBtnAmenities" data-bs-target="#tabAmenities" class="nav-tab-buttons nav-link mx-1" tab-information="Amenities" tab-function="renderOverviewAmenities" tab-bottom="#tabAmenitiesBottom" data-bs-toggle="tab" type="button" role="tab">
+                <button id="tabBtnAmenities" data-bs-target="#tabAmenities" class="nav-tab-buttons nav-link mx-1" tab-information="Amenities" tab-function="renderAmenities" tab-bottom="#tabAmenitiesBottom" data-bs-toggle="tab" type="button" role="tab">
                     <img src="src/static/amenities_icon.svg" alt="amenities icon" height="30" width="30" />
                 </button>
             </li>

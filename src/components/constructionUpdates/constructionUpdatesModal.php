@@ -1,5 +1,5 @@
 <div class="modal fade" id="modal-construction-updates" tabindex="-1" aria-labelledby="Construction_Updates" aria-hidden="true">
-    <div class="modal-dialog modal-fullscreen-lg-down modal-xl">
+    <div class="modal-dialog modal-fullscreen-lg-down modal-xl ">
         <div class="modal-content">
             <div class="modal-header border-bottom-0 p-4 p-lg-5 pb-2 pb-lg-2 position-relative">
 
@@ -13,7 +13,7 @@
                                 <h5>Construction Updates</h5>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6">
+                        <div class="col-12 col-lg-6 ps-0">
                             <div class="d-flex flex-column ms-lg-auto" style="width:150px;">
                                 <small class="d-none d-lg-block" style="color: rgba(88, 99, 126, 0.6);">Share</small>
                                 <div class="d-flex mt-2">
@@ -32,8 +32,8 @@
                     </div>
                 </div>
             </div>
-            <div class="modal-body p-4 p-lg-5 pt-0 pt-lg-0">
-                <section id="construction-main-carousel" class="splide p-2 p-lg-3" aria-label="Beautiful Images">
+            <div class="modal-body p-4 p-lg-5 pt-0 pt-lg-0 mt-3">
+                <section id="construction-main-carousel" class="splide p-2 p-lg-3 px-0" aria-label="Beautiful Images">
                     <div class="splide__track">
                         <ul class="splide__list" id="construction-main-carousel-splide"></ul>
                     </div>

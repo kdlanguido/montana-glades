@@ -5,11 +5,10 @@ const constructionUpdatesAssets = [
 
 constructionUpdatesRendered = false;
 
-
 const renderConstructionSplide = () => {
     new Splide('#construction-main-carousel', {
         cover: true,
-        heightRatio: 1,
+        height: '70vh'
     }).mount();
 }
 

@@ -262,17 +262,27 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-@media all and (min-width: 300px) and (max-width: 768px) {
+@media all and (max-width: 768px) and (min-height: 375px)  {
     #thumbnail-carousel, #amenities-thumbnail-carousel {
         max-width: 100% !important;
     }
+
+    #btnSidebuttonFullscreen {
+        top: 30%;
+    }
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
     #thumbnail-carousel, #amenities-thumbnail-carousel {
         max-width: 50% !important;
     }
     #btnSidebuttonFullscreen {
         top: 27%;
+    }
+}
+
+@media all and (max-height: 375px) {
+    #btnSidebuttonFullscreen {
+        top: 37%;
     }
 }

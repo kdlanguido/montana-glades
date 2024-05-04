@@ -39,6 +39,7 @@
         include "src/components/constructionUpdates/constructionUpdatesModal.php";
         include "src/components/shareModal/shareModal.php";
         include "src/components/inquireNow/inquireNowModal.php";
+        include "src/components/fullscreenModal/fullscreenModal.php";
         include "src/components/sideMenu/sideMenu.php";
         ?>
     </section>
@@ -50,6 +51,8 @@
     <!-- Functions -->
     <script src="src/functions/constructionModal.js"></script>
     <script src="src/functions/navTabs.js"></script>
+    <script src="src/functions/fullscreenModal.js"></script>
+
 </body>
 
 </html>

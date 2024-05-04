@@ -21,6 +21,7 @@ interValRef = 0;
 interValRef = setInterval("checkState();", 100)
 
 amenitiesRendered = false;
+activeTabLabel = 'Overview'
 
 function checkState() {
     if (document.readyState == 'complete') {
@@ -30,6 +31,7 @@ function checkState() {
 }
 
 $(document).ready(function () {
+
     renderOverviewAssets()
     tabFunctionality();
     navLinksFunctionality();
@@ -42,6 +44,13 @@ $(document).ready(function () {
         $(this).find('i').css('color', '#fff')
     }).mouseout(function () {
         $(this).find('i').css('color', '#2F72A9')
+    })
+
+    $('.btnSidebuttonFullscreen').click(function () {
+
+        $('#modal-fullscreen').modal('show')
+
+        renderFullscreenImages();
     })
 })
 
@@ -62,32 +71,6 @@ const loadSplideImages = () => {
     });
 
     var thumbnails = new Splide('#thumbnail-carousel', {
-        fixedWidth: '200px',
-        fixedHeight: 'auto',
-        width: '50%',
-        gap: 10,
-        rewind: true,
-        pagination: false,
-        isNavigation: true,
-    });
-
-    main.sync(thumbnails);
-    main.mount();
-    thumbnails.mount();
-}
-
-function loadAmenitiesImages() {
-
-    var main = new Splide('#amenities-main-carousel', {
-        type: 'fade',
-        rewind: true,
-        pagination: false,
-        arrows: false,
-        height: '80vh',
-        width: '100%'
-    });
-
-    var thumbnails = new Splide('#amenities-thumbnail-carousel', {
         fixedWidth: '200px',
         fixedHeight: 'auto',
         width: '50%',
@@ -137,8 +120,9 @@ const tabFunctionality = () => {
     const activeTabIcon = $(activeTab).find('img')
 
     activeTabIcon.hide();
+    activeTabLabel = $(activeTab).attr('tab-information')
 
-    const toAppend = `<span>${$(activeTab).attr('tab-information')}</span>`
+    const toAppend = `<span>${activeTabLabel}</span>`
 
     $(activeTab).append(toAppend)
 }
@@ -206,7 +190,7 @@ const getAmenitiesImages = () => {
     })
 }
 
-function renderOverviewAmenities() {
+function renderAmenities() {
 
     if (!amenitiesRendered) {
         $('#loading-page').show()
@@ -224,4 +208,30 @@ function renderOverviewAmenities() {
             }, 500);
         })
     }
+}
+
+function loadAmenitiesImages() {
+
+    var main = new Splide('#amenities-main-carousel', {
+        type: 'fade',
+        rewind: true,
+        pagination: false,
+        arrows: false,
+        height: '80vh',
+        width: '100%'
+    });
+
+    var thumbnails = new Splide('#amenities-thumbnail-carousel', {
+        fixedWidth: '200px',
+        fixedHeight: 'auto',
+        width: '50%',
+        gap: 10,
+        rewind: true,
+        pagination: false,
+        isNavigation: true,
+    });
+
+    main.sync(thumbnails);
+    main.mount();
+    thumbnails.mount();
 }

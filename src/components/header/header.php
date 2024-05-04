@@ -37,6 +37,13 @@
         </div>
     </div>
 
+    <div class="d-flex d-lg-none justify-content-center align-items-center w-100 position-relative" id="mobile-menu">
+        <button class="btn position-absolute" id="btn-mobile-menu" data-bs-toggle="offcanvas" data-bs-target="#sideMenu" aria-controls="sideMenu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <img src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714694908/global/logowithbokeh_white_riwhix_ogw01l.webp" class="header-logo mt-2" alt="">
+    </div>
+
     <?php include "src/components/navLinks/navLinks.php"; ?>
 
 </div>

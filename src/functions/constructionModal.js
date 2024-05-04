@@ -9,7 +9,7 @@ constructionUpdatesRendered = false;
 const renderConstructionSplide = () => {
     new Splide('#construction-main-carousel', {
         cover: true,
-        heightRatio: 0.5,
+        heightRatio: 1,
     }).mount();
 }
 

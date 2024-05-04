@@ -20,13 +20,13 @@
 
         <h5>Landmarks</h5>
 
-        <a class="location-btn-gotomaps btn border" target="_blank" href="https://www.google.com/maps?ll=14.533365,121.056438&z=16&t=m&hl=en&gl=PH&mapclient=embed&cid=3242635967987224868">
+        <a class="location-btn-gotomaps btn border mb-2" target="_blank" href="https://www.google.com/maps?ll=14.533365,121.056438&z=16&t=m&hl=en&gl=PH&mapclient=embed&cid=3242635967987224868">
             Nuvali - 31km
         </a>
-        <a class="location-btn-gotomaps btn border" target="_blank" href="https://www.google.com/maps?ll=14.533365,121.056438&z=16&t=m&hl=en&gl=PH&mapclient=embed&cid=3242635967987224868">
+        <a class="location-btn-gotomaps btn border mb-2" target="_blank" href="https://www.google.com/maps?ll=14.533365,121.056438&z=16&t=m&hl=en&gl=PH&mapclient=embed&cid=3242635967987224868">
             Vermosa Sports Hub - 1km
         </a>
-        <a class="location-btn-gotomaps btn border" target="_blank" href="https://www.google.com/maps?ll=14.533365,121.056438&z=16&t=m&hl=en&gl=PH&mapclient=embed&cid=3242635967987224868">
+        <a class="location-btn-gotomaps btn border mb-2" target="_blank" href="https://www.google.com/maps?ll=14.533365,121.056438&z=16&t=m&hl=en&gl=PH&mapclient=embed&cid=3242635967987224868">
             The District Imus - 5km
         </a>
 

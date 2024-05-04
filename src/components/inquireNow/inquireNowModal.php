@@ -4,31 +4,31 @@
             <div class="modal-body p-0">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-8 border p-lg-5">
+                        <div class="col-lg-8 border p-5">
                             <div class="tab-header-1 mb-3">
                                 <h6 class="fw-bold">Inquire Now</h6>
                                 <h5>Ardia Vermosa</h5>
                             </div>
 
                             <div class="container-fluid ps-0 ms-0">
-                                <div class="row mb-3">
-                                    <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-6 mb-2">
                                         <input type="text" class="form-control" placeholder="Name">
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 mb-2">
                                         <input type="text" class="form-control" placeholder="Email">
                                     </div>
                                 </div>
-                                <div class="row mb-3">
-                                    <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-6 mb-2">
                                         <input type="text" class="form-control" placeholder="Phone">
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 mb-2">
                                         <input type="text" class="form-control" placeholder="Location">
                                     </div>
                                 </div>
                                 <div class="row row-cols-1">
-                                    <div class="col">
+                                    <div class="col mb-2">
                                         <textarea class="form-control" placeholder="Message" rows="5"></textarea>
                                     </div>
                                     <div class="col tab-info-2">

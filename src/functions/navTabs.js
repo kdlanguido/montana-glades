@@ -30,7 +30,6 @@ function checkState() {
 }
 
 $(document).ready(function () {
-
     renderOverviewAssets()
     tabFunctionality();
     navLinksFunctionality();

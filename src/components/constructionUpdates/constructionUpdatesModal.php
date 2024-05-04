@@ -1,7 +1,10 @@
 <div class="modal fade" id="modal-construction-updates" tabindex="-1" aria-labelledby="Construction_Updates" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen-lg-down modal-xl">
         <div class="modal-content">
-            <div class="modal-header border-bottom-0 p-4 p-lg-5 pb-2 pb-lg-2">
+            <div class="modal-header border-bottom-0 p-4 p-lg-5 pb-2 pb-lg-2 position-relative">
+
+                <button class="btn position-absolute border rounded" data-bs-dismiss="modal" style="right:10px; top:10px;"><i class="fa-solid fa-x"></i></button>
+
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 col-lg-6 ms-0 px-0">
@@ -30,7 +33,7 @@
                 </div>
             </div>
             <div class="modal-body p-4 p-lg-5 pt-0 pt-lg-0">
-                <section id="construction-main-carousel" class="splide" aria-label="Beautiful Images">
+                <section id="construction-main-carousel" class="splide p-2 p-lg-3" aria-label="Beautiful Images">
                     <div class="splide__track">
                         <ul class="splide__list" id="construction-main-carousel-splide"></ul>
                     </div>

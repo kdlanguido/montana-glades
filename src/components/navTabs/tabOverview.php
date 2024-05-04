@@ -4,15 +4,9 @@
             <img src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714694908/global/logowithbokeh_white_riwhix_ogw01l.webp" alt="">
         </div>
 
-        <button class="overview-side-buttons btn position-absolute end-0  z-3" id="btnSidebuttonShare">
-            <i class="bi bi-share"></i>
-            <span class="ms-2">Share</span>
-        </button>
-
-        <button class="overview-side-buttons btn position-absolute end-0  z-3" id="btnSidebuttonFullscreen">
-            <i class="bi bi-arrows-angle-expand"></i>
-            <span class="ms-2">Fullscreen</span>
-        </button>
+        <?php
+        include "src/components/widgetButtons/widgetButtons.php"
+        ?>
 
         <section class="splide w-100 p-0 m-0 border-0" id="main-carousel">
             <div class="splide__track">

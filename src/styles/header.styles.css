@@ -3,11 +3,7 @@
     background-size: contain;
     color: #fff;
     padding: 20px 50px !important;
-    height:150px;
-}
-
-.header-logo {
-    height: 60px !important;
+    height: 150px;
 }
 
 .header-right-panel {
@@ -20,4 +16,48 @@
 
 .header-icon-socials {
     font-size: 17px !important
+}
+
+.side-menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu-list>li>button {
+    width: 100%;
+    font-size: 20px;
+}
+
+#sideMenu {
+    background: url('https://res.cloudinary.com/dlobngrjy/image/upload/v1714694913/global/MG_Background_gxx9sm_mlnosc.webp');
+    background-size:cover;
+}
+
+@media all and (min-width: 300px) and (max-width: 768px) {
+    .header-logo {
+        height: 60px !important;
+    }
+
+    .header {
+        padding: 10px 0 !important;
+        width: 100%;
+        height: 100px;
+    }
+
+    #btn-mobile-menu {
+        left: 10px;
+        top: 10px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-logo {
+        height: 60px !important;
+    }
+
+    #btn-mobile-menu {
+        display: none;
+    }
 }

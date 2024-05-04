@@ -23,13 +23,6 @@
     filter: invert(39%) sepia(69%) saturate(444%) hue-rotate(163deg) brightness(96%) contrast(91%);
 }
 
-.nav-tab-buttons.active {
-    width: 300px;
-    background: #fff !important;
-    color: #3678ac !important;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
-
 .tab-overview-logo {
     text-align: center;
 }
@@ -74,8 +67,6 @@
 #btnSidebuttonFullscreen {
     top: 30%;
 }
-
-/* SPLIDE */
 
 .splide__slide img {
     width: 100%;
@@ -232,16 +223,24 @@
     box-shadow: none;
 }
 
+.nav-container {
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    white-space: nowrap;
+    /* Keep all list items in one line */
+    max-width: 100vw;
+    /* Limit container to viewport width */
+}
+
 .nav {
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .nav-item {
     flex-grow: 1;
     flex-basis: 0;
-    max-width: 100%;
 }
-
 
 .nav-item button {
     width: 98%;
@@ -254,5 +253,26 @@
 }
 
 .toolbar-btn i {
-   font-size: 15px;
+    font-size: 15px;
+}
+
+.nav-tab-buttons.active {
+    background: #fff !important;
+    color: #3678ac !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+@media all and (min-width: 300px) and (max-width: 768px) {
+    #thumbnail-carousel, #amenities-thumbnail-carousel {
+        max-width: 100% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    #thumbnail-carousel, #amenities-thumbnail-carousel {
+        max-width: 50% !important;
+    }
+    #btnSidebuttonFullscreen {
+        top: 27%;
+    }
 }

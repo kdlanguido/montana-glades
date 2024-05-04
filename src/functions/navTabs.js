@@ -30,6 +30,7 @@ function checkState() {
 }
 
 $(document).ready(function () {
+
     renderOverviewAssets()
     tabFunctionality();
     loadSplideImages();
@@ -130,7 +131,7 @@ const tabFunctionality = () => {
 
     activeTabIcon.hide();
 
-    const toAppend = `<span>${$(activeTab).attr('aria-information')}</span>`
+    const toAppend = `<span>${$(activeTab).attr('tab-information')}</span>`
 
     $(activeTab).append(toAppend)
 }
@@ -139,22 +140,23 @@ const tabClick = () => {
 
     $('.nav-tab-buttons').click(function () {
 
-        if (!$(this).hasClass('no-tab')) {
+        const tabButton = $(this)
+
+        if (!$(tabButton).hasClass('no-tab')) {
 
             tabFunctionality()
 
             $('.target-bottom-tabs').removeClass('show').removeClass('active')
 
-            const targetBottomTab = $(this).attr('aria-bottom')
+            const targetBottomTab = $(tabButton).attr('tab-bottom')
 
             $(targetBottomTab).addClass('show').addClass('active')
+        }
 
-            const clickedFunctionName = $(this).attr('aria-function')
+        const clickedFunctionName = $(tabButton).attr('tab-function')
 
-            if (clickedFunctionName && window[clickedFunctionName]) {
-                window[clickedFunctionName]();
-
-            }
+        if (clickedFunctionName && window[clickedFunctionName]) {
+            window[clickedFunctionName]();
         }
     })
 
@@ -193,11 +195,9 @@ const getAmenitiesImages = () => {
             $('#amenities-thumbnail-carousel-splide').html(output)
 
             resolve(true);
-        }, 200);
+        }, 500);
     })
 }
-
-
 
 function renderOverviewAmenities() {
 
@@ -213,25 +213,8 @@ function renderOverviewAmenities() {
                 $('#loading-page').hide()
                 $('#main-content').show()
                 amenitiesRendered = true;
-                
-            }, 500);
 
+            }, 500);
         })
     }
 }
-
-
-// const renderOverviewAmenities = () => {
-
-
-//     console.log(getAmenitiesImages())
-
-//     getAmenitiesImages().then(() => {
-//         loadAmenitiesImages();
-//     })
-
-
-
-
-//     // loadAmenitiesImages();
-// }

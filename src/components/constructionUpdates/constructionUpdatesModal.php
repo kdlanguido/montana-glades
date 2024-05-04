@@ -25,13 +25,16 @@
                                     </button>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
             <div class="modal-body p-4 p-lg-5 pt-0 pt-lg-0">
-                test
+                <section id="construction-main-carousel" class="splide" aria-label="Beautiful Images">
+                    <div class="splide__track">
+                        <ul class="splide__list" id="construction-main-carousel-splide"></ul>
+                    </div>
+                </section>
             </div>
 
         </div>

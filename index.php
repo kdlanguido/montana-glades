@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://res.cloudinary.com">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/libs/splide.min.css">
     <link rel="stylesheet" href="src/libs/splide-sea-green.min.css">
     <link rel="stylesheet" href="src/libs/bootstrap.css">
@@ -24,8 +25,8 @@
 </head>
 
 <body>
-
     <section class="justify-content-center w-100 h-100 bg-dark align-items-center flex-column" id="loading-page">
+
         <img src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714694908/global/logowithbokeh_white_riwhix_ogw01l.webp" width="260" height="auto" alt="">
         <div class="loader"></div>
     </section>
@@ -34,18 +35,17 @@
         <?php
         include "src/components/header/header.php";
         include "src/components/navTabs/navTabs.php";
-        include "src/components/constructionUpdates/constructionUpdatesModal.php"
+        include "src/components/constructionUpdates/constructionUpdatesModal.php";
+        include "src/components/shareModal/shareModal.php";
         ?>
     </section>
 
-
     <script src="src/libs/bootstrap.js"></script>
-    <!-- <script src="src/libs/jquery.js"></script> -->
-
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="src/libs/splide.min.js"></script>
 
     <!-- Functions -->
+    <script src="src/functions/constructionModal.js"></script>
     <script src="src/functions/navTabs.js"></script>
 
 </body>

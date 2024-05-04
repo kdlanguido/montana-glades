@@ -33,6 +33,7 @@ $(document).ready(function () {
 
     renderOverviewAssets()
     tabFunctionality();
+    navLinksFunctionality();
     loadSplideImages();
     splideNavigate();
     sideButtonHover();
@@ -118,6 +119,13 @@ const sideButtonHover = () => {
     }).mouseout(function () {
         const sideButtonLabel = $(this).find('span')
         $(sideButtonLabel).css('display', 'none')
+    })
+}
+
+const navLinksFunctionality = () => {
+    $('.nav-link-button').click(function () {
+        const tabId = $(this).attr('tab-id')
+        $(`#${tabId}`).trigger('click')
     })
 }
 

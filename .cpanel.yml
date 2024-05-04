@@ -1,4 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/repositories/montana-glades/
+    - export DEPLOYPATH=/home/public_html/montana-glades/

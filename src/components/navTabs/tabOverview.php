@@ -1,7 +1,7 @@
 <div class="tab-pane fade show active p-0 m-0 position-relative" id="tabOverview" role="tabpanel">
     <section>
         <div class="tab-overview-logo position-absolute top-0 w-100 z-3">
-            <img src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714694908/global/logowithbokeh_white_riwhix_ogw01l.webp" alt="">
+            <img src="src/static/logo.webp" alt="">
         </div>
 
         <?php

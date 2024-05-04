@@ -1,5 +1,5 @@
 .header {
-    background-image: url('https://res.cloudinary.com/dlobngrjy/image/upload/v1714694913/global/MG_Background_gxx9sm_mlnosc.webp');
+    background-image: url('src/static/splash-bg.webp');
     background-size: contain;
     color: #000000cc;
     padding: 20px 50px !important;
@@ -30,8 +30,8 @@
 }
 
 #sideMenu {
-    background: url('https://res.cloudinary.com/dlobngrjy/image/upload/v1714694913/global/MG_Background_gxx9sm_mlnosc.webp');
-    background-size:cover;
+    background: url('src/static/splash-bg.webp');
+    background-size: cover;
 }
 
 @media all and (min-width: 300px) and (max-width: 768px) {

@@ -160,7 +160,7 @@ const renderOverviewAssets = () => {
     assetsListOverview.map((image) => {
         output += `
             <li class="splide__slide me-1">
-                <img class="carousel-img" src="${image[0]}" alt="${image[1]}">
+                <img crossorigin="anonymous" referrerpolicy="no-referrer" class="carousel-img" src="${image[0]}" alt="${image[1]}">
             </li>
         `
     })
@@ -177,7 +177,7 @@ const getAmenitiesImages = () => {
             assetsListAmenities.map((image) => {
                 output += `
                     <li class="splide__slide me-1">
-                        <img class="carousel-img" src="${image[0]}" alt="${image[1]}">
+                        <img crossorigin="anonymous" referrerpolicy="no-referrer" class="carousel-img" src="${image[0]}" alt="${image[1]}">
                     </li>
                 `
             })

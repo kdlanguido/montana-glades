@@ -47,7 +47,7 @@ const getFullscreenImages = () => {
             imageCollection.map((image) => {
                 output += `
                     <li class="splide__slide me-1" style="opacity:1; object-fit:contain; width:100vw;">
-                        <img src="${image[0]}" alt="${image[1]}" >
+                        <img src="${image[0]}" crossorigin="anonymous" referrerpolicy="no-referrer" alt="${image[1]}" >
                     </li>
                 `
             })

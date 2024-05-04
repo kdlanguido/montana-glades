@@ -1,6 +1,6 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="sideMenu" aria-labelledby="sideMenuLabel">
     <div class="offcanvas-header text-center">
-        <img src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714694908/global/logowithbokeh_white_riwhix_ogw01l.webp" alt="" style="margin:auto;height:160px; width:160px; object-fit:contain">
+        <img src="src/static/logo.webp" alt="" style="margin:auto;height:160px; width:160px; object-fit:contain">
     </div>
     <div class="offcanvas-body position-relative">
         <ul class="side-menu-list">

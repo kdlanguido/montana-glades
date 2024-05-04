@@ -1,6 +1,6 @@
 <div class="header">
     <div class="d-none d-lg-flex justify-content-between">
-        <img src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714694908/global/logowithbokeh_white_riwhix_ogw01l.webp" class="header-logo" alt="">
+        <img src="src/static/logo.webp" class="header-logo" alt="">
 
         <div class="d-flex align-items-center header-right-panel">
 
@@ -41,7 +41,7 @@
         <button class="btn position-absolute" id="btn-mobile-menu" data-bs-toggle="offcanvas" data-bs-target="#sideMenu" aria-controls="sideMenu">
             <i class="fa-solid fa-bars"></i>
         </button>
-        <img src="https://res.cloudinary.com/dlobngrjy/image/upload/v1714694908/global/logowithbokeh_white_riwhix_ogw01l.webp" class="header-logo mt-2" alt="">
+        <img src="src/static/logo.webp" class="header-logo mt-2" alt="">
     </div>
 
     <?php include "src/components/navLinks/navLinks.php"; ?>

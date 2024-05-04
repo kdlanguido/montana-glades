@@ -42,9 +42,9 @@
                         </div>
                         <div class="col-lg-4 p-0">
                             <div class="modal-right-panel p-5 h-100">
-                                <h6>ADDRESS</h6>
+                                <h6 style="font-size:1.3rem">ADDRESS</h6>
                                 <p>601 Sherwood Ave. San Bernandino</p>
-                                <h6>CALL US</h6>
+                                <h6 style="font-size:1.3rem">CALL US</h6>
                                 <p class="m-0">251 546 9442</p>
                                 <p class="m-0">630 446 8851</p>
                             </div>

@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="src/styles/navlinks.styles.css">
     <link rel="stylesheet" href="src/styles/navTabs.styles.css">
     <link rel="stylesheet" href="src/styles/inquireModal.styles.css">
-
 </head>
 
 <body>

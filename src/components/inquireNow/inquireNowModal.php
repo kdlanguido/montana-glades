@@ -4,7 +4,10 @@
             <div class="modal-body p-0">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-8 border p-5">
+                        <div class="col-lg-8 border p-5 position-relative">
+
+                            <button class="btn position-absolute border rounded d-block d-lg-none" data-bs-dismiss="modal" style="right:10px; top:10px;"><i class="fa-solid fa-x"></i></button>
+
                             <div class="tab-header-1 mb-3">
                                 <h6 class="fw-bold">Inquire Now</h6>
                                 <h5>Ardia Vermosa</h5>
@@ -32,7 +35,7 @@
                                         <textarea class="form-control" placeholder="Message" rows="5"></textarea>
                                     </div>
                                     <div class="col tab-info-2">
-                                        <button class="btn border rounded ms-0 mt-2">Submit Now</button>
+                                        <button class="btn border rounded ms-0">Submit Now</button>
                                     </div>
                                 </div>
                             </div>

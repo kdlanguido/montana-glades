@@ -31,7 +31,7 @@
                 </svg>
                 <div class="ms-2">
                     <b>Main Location</b><br>
-                    King Street, AUS
+                    Montana Glades Brgy. Calulut City of San Fernando Pampanga
                 </div>
             </div>
 

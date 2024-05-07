@@ -1,43 +1,43 @@
 <div class="target-bottom-tabs tab-pane fade show active p-5 m-0 position-relative" id="tabOverviewBottom" role="tabpanel">
     <section class="tab-header-1">
-        <h5>Ardia Vermosa</h5>
-        <p>Pre-Selling Lots in Cavite</p>
+        <h5>Property Name</h5>
+        <p>Curabitur justo lacus</p>
     </section>
 
     <section class="tab-info mt-5">
-        <h5>About Ardia Vermosa</h5>
+        <h5>About Morbi et lacus</h5>
 
         <p>
-            Nestled within the sprawling estate of Vermosa, Ardia presents a residential community that brings out your passion for life. Located right beside the CBD, dynamic amenities and lifestyle options heighten the suburban experience giving you space to move freely between home and work, nature and city, active and leisure.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur justo lacus, elementum sed cursus eu, pulvinar sit amet velit. Donec rhoncus ante eu tincidunt pretium. Ut eu ornare felis. Fusce at ante velit. Aenean cursus ut velit nec gravida. Sed eu massa eros. Aenean ipsum velit, pellentesque ac volutpat id, pulvinar sit amet augue.
         </p>
 
         <p>
-            Located in Vermosa, a 700-hectare mixed-use masterplan, life is fueled by the movement, wellness and active lifestyles. It is the perfect eco-friendly suburban community permeated by lush open spaces, vibrant parks, and interconnecting walkways built for your family's holistic lifestyles.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur justo lacus, elementum sed cursus eu, pulvinar sit amet velit. Donec rhoncus ante eu tincidunt pretium. Ut eu ornare felis. Fusce at ante velit. Aenean cursus ut velit nec gravida. Sed eu massa eros. Aenean ipsum velit, pellentesque ac volutpat id, pulvinar sit amet augue.
         </p>
 
         <br>
-        <p>Project Address: Vermosa, Imus, Cavite</p>
+        <p>Project Address: Donec rhoncus ante eu tincidunt pretium. Ut eu ornare felis</p>
 
         <p>Completion Date: Ph3 Sep 2022, Ph2 Feb 2020; Ph1 Oct 2019</p>
 
-        <p>Project Developer: Ayala Land, Inc.</p>
+        <p>Project Developer: Donec rhoncus ante eu tincidunt pretium. Ut eu ornare felis</p>
 
-        <p>Project Manager: Alveo Land Corp.</p>
+        <p>Project Manager: Donec rhoncus ante eu tincidunt pretium. Ut eu ornare felis</p>
 
     </section>
 
     <section class="tab-price mt-4">
-        <h1>₱15.3 m - ₱32.3 m</h1>
-        <p>Estimated Price as of 09/01/2022</p>
+        <h1>₱10.3 m - ₱22.3 m</h1>
+        <p>Donec rhoncus ante eu tincidunt pretium. Ut eu ornare felis</p>
     </section>
 
     <section class="tab-info mt-4">
-        <p>HLURB LS No. 034941, 033095, 032024<br>Ad Approval No.: AA-R4A-012420-0011</p>
+        <p>HLURB LS No. 123958, 698587, 159872<br>Ad Approval No.: DD-RA4-123321-2211</p>
     </section>
 
     <section class="tab-info-2 mt-4">
         <h1>Online brochure</h1>
-        <button class="btn border rounded ms-0">Ardia Vermosa</button>
+        <button class="btn border rounded ms-0">Property Name</button>
     </section>
 
 </div>

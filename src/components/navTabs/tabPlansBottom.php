@@ -1,7 +1,7 @@
 <div class="target-bottom-tabs tab-pane fade p-5 m-0 position-relative" id="tabPlansBottom" role="tabpanel">
 
     <section class="tab-header-1">
-        <h6>ARDIA VERMOSA</h6>
+        <h6>PROPERTY NAME</h6>
         <h5>Plans</h5>
     </section>
 
@@ -26,10 +26,10 @@
                         <h5>SIZE RANGE</h5>
                     </td>
                     <td width="10%" class="p-4 px-3 text-center tab-info">
-                        <h5 class="text-center">252</h5>
+                        <h5 class="text-center">200</h5>
                     </td>
                     <td width="10%" class="p-4 px-3 text-center tab-info">
-                        <h5 class="text-center">536</h5>
+                        <h5 class="text-center">400</h5>
                     </td>
                 </tr>
             </tbody>

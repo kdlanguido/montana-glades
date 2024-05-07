@@ -1,9 +1,9 @@
 .header {
-    background-image: url('src/static/splash-bg.webp');
+    background-image: url('../static/splash-bg.webp');
     background-size: contain;
     color: #000000cc;
     padding: 20px 50px !important;
-    height: 150px;
+    height: 175px;
 }
 
 .header-right-panel {
@@ -30,7 +30,7 @@
 }
 
 #sideMenu {
-    background: url('src/static/splash-bg.webp');
+    background: url('../static/splash-bg.webp');
     background-size: cover;
 }
 
@@ -54,7 +54,7 @@
 
 @media (min-width: 768px) {
     .header-logo {
-        height: 60px !important;
+        height: 100px !important;
     }
 
     #btn-mobile-menu {

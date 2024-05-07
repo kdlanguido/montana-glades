@@ -13,7 +13,7 @@
                     <div class="row">
                         <div class="col-12 col-lg-6 ms-0 px-0">
                             <div class="tab-header-1">
-                                <h6 class="fw-bold">ARDIA VERMOSA</h6>
+                                <h6 class="fw-bold">PROPERTY NAME</h6>
                                 <h5>Construction Updates</h5>
                             </div>
                         </div>

@@ -1,7 +1,7 @@
 <div class="target-bottom-tabs tab-pane fade p-5 m-0 position-relative" id="tabAmenitiesBottom" role="tabpanel">
 
     <section class="tab-header-1">
-        <h6>ARDIA VERMOSA</h6>
+        <h6>PROPERTY NAME</h6>
         <h5>Features and Amenities</h5>
     </section>
 

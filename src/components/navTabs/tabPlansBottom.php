@@ -1,7 +1,7 @@
 <div class="target-bottom-tabs tab-pane fade p-5 m-0 position-relative" id="tabPlansBottom" role="tabpanel">
 
     <section class="tab-header-1">
-        <h6>PROPERTY NAME</h6>
+        <h6>Montana Glades</h6>
         <h5>Plans</h5>
     </section>
 

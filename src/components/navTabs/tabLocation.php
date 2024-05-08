@@ -1,3 +1,3 @@
 <div class="tab-pane fade p-0 m-0 position-relative" id="tabLocation" role="tabpanel">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3853.1083402289505!2d120.68040277574684!3d15.042122666113388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f7122ec691f7%3A0x5342ccb9278dbb5a!2sNidel%20Management%20Inc.%20(New%20Bldg)!5e0!3m2!1sen!2sph!4v1714809307134!5m2!1sen!2sph" width="100%" height="650" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3852.1572819461912!2d120.6567130757474!3d15.094657864788742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f10018d71439%3A0x9544befd4639ff29!2sMontana%20Glades!5e0!3m2!1sen!2sph!4v1715193242440!5m2!1sen!2sph" width="100%" height="650" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>

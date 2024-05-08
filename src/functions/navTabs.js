@@ -19,7 +19,7 @@
 
 
 const assetsListOverview = [
-    ['src/static/overview/MG_Clubhouse_Rendered_uohygj_arznuo_uirbkv.webp', 'MG Clubhouse'],
+    ['src/static/overview/pick1.webp', 'MG Clubhouse'],
     ['src/static/overview/MG_Clubhouse_Rendered_2_negxzv_b7wc0h_sb9324.webp', 'MG Clubhouse'],
     ['src/static/overview/Exercising_Lifestyle_yqs5xb_ytl22y_zvgypb.webp', 'MG Clubhouse'],
     ['src/static/overview/Biking_Happy_With_Road_zwmf14_kenvz1_imivmy.webp', 'MG Clubhouse'],
@@ -72,6 +72,8 @@ $(document).ready(function () {
 
         renderFullscreenImages();
     })
+
+   
 })
 
 const renderPage = () => {
@@ -79,9 +81,9 @@ const renderPage = () => {
     $('#main-content').show()
 }
 
-const loadSplideImages = () => {
+function loadSplideImages() {
 
-    var main = new Splide('#main-carousel', {
+    const main = new Splide('#main-carousel', {
         type: 'fade',
         rewind: true,
         pagination: false,
@@ -90,7 +92,7 @@ const loadSplideImages = () => {
         width: '100%'
     });
 
-    var thumbnails = new Splide('#thumbnail-carousel', {
+    const thumbnails = new Splide('#thumbnail-carousel', {
         fixedWidth: '200px',
         fixedHeight: 'auto',
         width: '50%',
@@ -102,7 +104,19 @@ const loadSplideImages = () => {
 
     main.sync(thumbnails);
     main.mount();
+
+   
     thumbnails.mount();
+
+    thumbnails.on( 'moved', function (newIndex, prevIndex, destIndex) {
+        console.log(newIndex);
+    } );
+  
+    
+    main.on( 'moved', function (newIndex, prevIndex, destIndex) {
+        console.log(newIndex);
+    } );
+    
 }
 
 const splideNavigate = () => {

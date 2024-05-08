@@ -4,7 +4,7 @@
             <div class="modal-header border-bottom-0 p-4 p-lg-5 pb-2 pb-lg-2">
                 <div class="tab-header-1">
                     <h6 class="fw-bold">Share Links</h6>
-                    <h5>PROPERTY NAME</h5>
+                    <h5>MONTANA GLADES</h5>
                 </div>
             </div>
             <div class="modal-body p-4 p-lg-5 pt-0 pt-lg-0 mt-3">

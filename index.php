@@ -46,13 +46,13 @@
         ?>
     </section>
 
-    <!-- <script src="src/functions/all.min.js"></script> -->
-    <script src="src/libs/bootstrap.js"></script>
+    <script src="src/functions/all.min.js"></script>
+    <!-- <script src="src/libs/bootstrap.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="src/libs/splide.min.js"></script>
     <script src="src/functions/constructionModal.js"></script>
     <script src="src/functions/navTabs.js"></script>
-    <script src="src/functions/fullscreenModal.js"></script>
+    <script src="src/functions/fullscreenModal.js"></script> -->
 
 
 </body>

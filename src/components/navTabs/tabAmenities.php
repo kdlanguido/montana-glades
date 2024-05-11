@@ -1,6 +1,6 @@
 <div class="tab-pane fade p-0 m-0 position-relative" id="tabAmenities" role="tabpanel">
     <section>
-        <div class="tab-overview-logo position-absolute top-0 w-100 z-3">
+        <div class="tab-overview-logo position-absolute top-0 w-100 z-3" id="tab-amenities-logo">
             <img src="src/static/logo.webp" alt="">
         </div>
 

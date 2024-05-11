@@ -73,7 +73,7 @@ $(document).ready(function () {
         renderFullscreenImages();
     })
 
-   
+
 })
 
 const renderPage = () => {
@@ -105,18 +105,14 @@ function loadSplideImages() {
     main.sync(thumbnails);
     main.mount();
 
-   
     thumbnails.mount();
-    
-    thumbnails.on( 'moved', function (newIndex, prevIndex, destIndex) {
-        console.log(newIndex);
-    } );
-  
-    
-    main.on( 'moved', function (newIndex, prevIndex, destIndex) {
-        console.log(newIndex);
-    } );
-    
+    thumbnails.on('moved', function (newIndex, prevIndex, destIndex) {
+        if (newIndex > 0) {
+            $('#tab-overview-logo').fadeOut(300)
+        } else {
+            $('#tab-overview-logo').show()
+        }
+    });
 }
 
 const splideNavigate = () => {
@@ -246,7 +242,7 @@ function renderAmenities() {
 
 function loadAmenitiesImages() {
 
-    var main = new Splide('#amenities-main-carousel', {
+    const main = new Splide('#amenities-main-carousel', {
         type: 'fade',
         rewind: true,
         pagination: false,
@@ -255,7 +251,7 @@ function loadAmenitiesImages() {
         width: '100%'
     });
 
-    var thumbnails = new Splide('#amenities-thumbnail-carousel', {
+    const thumbnails = new Splide('#amenities-thumbnail-carousel', {
         fixedWidth: '200px',
         fixedHeight: 'auto',
         width: '50%',
@@ -268,4 +264,12 @@ function loadAmenitiesImages() {
     main.sync(thumbnails);
     main.mount();
     thumbnails.mount();
+
+    thumbnails.on('moved', function (newIndex, prevIndex, destIndex) {
+        if (newIndex > 0) {
+            $('#tab-amenities-logo').fadeOut(300)
+        } else {
+            $('#tab-amenities-logo').show()
+        }
+    });
 }

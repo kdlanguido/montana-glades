@@ -1,8 +1,8 @@
 <div class="tab-pane fade show active p-0 m-0 position-relative" id="tabOverview" role="tabpanel">
     <section>
-        <!-- <div class="tab-overview-logo position-absolute top-0 w-100 z-3">
+        <div class="tab-overview-logo position-absolute top-0 w-100 z-3" id="tab-overview-logo">
             <img src="src/static/logo.webp" alt="">
-        </div> -->
+        </div>
 
         <?php
         include "src/components/widgetButtons/widgetButtons.php"

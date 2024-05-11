@@ -54,7 +54,6 @@
     <script src="src/functions/navTabs.js"></script>
     <script src="src/functions/fullscreenModal.js"></script> -->
 
-
 </body>
 
 </html>

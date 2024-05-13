@@ -6,9 +6,10 @@
     </section>
 
     <section class="mt-4">
-        <a class="location-btn-gotomaps btn border" target="_blank" href="https://maps.app.goo.gl/owrjmdyoeTvFgkck9">
+        <img alt="QR for google maps" src="src/static/qr.webp" class="qr border rounded" /><br>
+        <a class="location-btn-gotomaps btn border mt-2" target="_blank" href="https://maps.app.goo.gl/owrjmdyoeTvFgkck9">
             <i class="fa-solid fa-location-arrow me-2"></i>
-            Google Map
+            Open Google Map
         </a>
     </section>
 

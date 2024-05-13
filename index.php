@@ -10,17 +10,19 @@
 
     <!-- <link rel="preconnect" href="https://cdnjs.cloudflare.com"> -->
     <!-- <link rel="preconnect" href="https://code.jquery.com"> -->
-    <link rel="preconnect" href="https://res.cloudinary.com">
+    <!-- <link rel="preconnect" href="https://res.cloudinary.com"> -->
 
     <link rel="icon" type="image/x-icon" href="src/static/logo.webp">
     <link rel="stylesheet" href="src/styles/all.min.css">
+
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     -->
     <!-- <link rel="stylesheet" href="src/libs/splide.min.css"> -->
     <!-- <link rel="stylesheet" href="src/libs/splide-sea-green.min.css"> -->
     <!-- <link rel="stylesheet" href="src/libs/bootstrap.css"> -->
-    <!-- <link rel="stylesheet" href="src/styles/global.css">
+    <!--     
+    <link rel="stylesheet" href="src/styles/global.css">
     <link rel="stylesheet" href="src/styles/header.styles.css">
     <link rel="stylesheet" href="src/styles/navlinks.styles.css">
     <link rel="stylesheet" href="src/styles/navTabs.styles.css">

@@ -138,6 +138,8 @@ const navLinksFunctionality = () => {
     $('.nav-link-button').click(function () {
         const tabId = $(this).attr('tab-id')
         $(`#${tabId}`).trigger('click')
+        $('.nav-link-button').removeClass('active');
+        $(this).addClass('active');
     })
 }
 
@@ -160,6 +162,28 @@ const tabFunctionality = () => {
 const tabClick = () => {
 
     $('.nav-tab-buttons').click(function () {
+
+        const tabButton = $(this)
+
+        if (!$(tabButton).hasClass('no-tab')) {
+
+            tabFunctionality()
+
+            $('.target-bottom-tabs').removeClass('show').removeClass('active')
+
+            const targetBottomTab = $(tabButton).attr('tab-bottom')
+
+            $(targetBottomTab).addClass('show').addClass('active')
+        }
+
+        const clickedFunctionName = $(tabButton).attr('tab-function')
+
+        if (clickedFunctionName && window[clickedFunctionName]) {
+            window[clickedFunctionName]();
+        }
+    })
+
+    $('.nav-link-button').click(function () {
 
         const tabButton = $(this)
 

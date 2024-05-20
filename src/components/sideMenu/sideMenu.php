@@ -4,10 +4,10 @@
     </div>
     <div class="offcanvas-body position-relative">
         <ul class="side-menu-list">
-            <li><button data-bs-dismiss="offcanvas" class="btn nav-link-button mb-3" tab-id="tabBtnProject">The Project</button></li>
-            <li><button data-bs-dismiss="offcanvas" class="btn nav-link-button mb-3" tab-id="tabBtnLocation">Location</button></li>
-            <li><button data-bs-dismiss="offcanvas" class="btn nav-link-button mb-3" tab-id="tabBtnAmenities">Amenities</button></li>
-            <li><button data-bs-dismiss="offcanvas" class="btn nav-link-button mb-3" tab-id="tabBtnSitePlan">Site Plans</button></li>
+            <li><button data-bs-dismiss="offcanvas" class="btn nav-link-button mb-3" tab-bottom="#tabOverviewBottom" tab-id="tabBtnProject">The Project</button></li>
+            <li><button data-bs-dismiss="offcanvas" class="btn nav-link-button mb-3" tab-bottom="#tabLocationBottom" tab-id="tabBtnLocation">Location</button></li>
+            <li><button data-bs-dismiss="offcanvas" class="btn nav-link-button mb-3" tab-bottom="#tabAmenitiesBottom" tab-id="tabBtnAmenities">Amenities</button></li>
+            <li><button data-bs-dismiss="offcanvas" class="btn nav-link-button mb-3" tab-bottom="#tabPlansBottom" tab-id="tabBtnSitePlan">Site Plans</button></li>
             <li><button data-bs-dismiss="offcanvas" class="btn nav-link-button mb-3 border rounded border-white" data-bs-target="#modal-inquire-now" data-bs-toggle="modal">Inquire Now</button></li>
         </ul>
 

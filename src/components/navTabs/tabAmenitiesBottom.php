@@ -6,7 +6,7 @@
     </section>
 
     <section class="mt-4">
-        <div class="accordion">
+        <!-- <div class="accordion">
             <div class="accordion-item border mb-2">
                 <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePanel1" aria-expanded="true" aria-controls="collapsePanel1">
@@ -68,6 +68,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
+
+        <ul style="list-style-type:disc">
+            <li>Multi-purpose field</li>
+            <li>Basketball Court</li>
+        </ul>
     </section>
 </div>

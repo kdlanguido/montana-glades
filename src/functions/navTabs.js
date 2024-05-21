@@ -67,12 +67,14 @@ $(document).ready(function () {
     })
 
     $('.btnSidebuttonFullscreen').click(function () {
-
         $('#modal-fullscreen').modal('show')
-
         renderFullscreenImages();
     })
 
+    $('.btn_prefix').click(function () {
+        const prefix = $(this).attr('prefix')
+        $('#btn_prefix').text(prefix)
+    })
 
 })
 
@@ -149,10 +151,15 @@ const tabFunctionality = () => {
     $('.nav-tab-buttons').find('img').show()
 
     const activeTab = $('.nav-tab-buttons.active')
-    const activeTabIcon = $(activeTab).find('img')
+    const activeTabIcon = activeTab.find('img')
+    $('.nav-link-button').removeClass('active').each((index, element) => {
+        if( $(element).attr('tab-id') === activeTab.attr('id')){
+            $(element).addClass('active')
+        }
+    })
 
     activeTabIcon.hide();
-    activeTabLabel = $(activeTab).attr('tab-information')
+    activeTabLabel = activeTab.attr('tab-information')
 
     const toAppend = `<span>${activeTabLabel}</span>`
 

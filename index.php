@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="src/styles/navlinks.styles.css">
     <link rel="stylesheet" href="src/styles/navTabs.styles.css">
     <link rel="stylesheet" href="src/styles/inquireModal.styles.css"> -->
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>

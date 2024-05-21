@@ -4,45 +4,81 @@
             <div class="modal-body p-0">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-7 border p-5 position-relative">
+                        <div class="col p-5 position-relative">
 
                             <button class="btn position-absolute border rounded d-block d-lg-none" data-bs-dismiss="modal" style="right:10px; top:10px;"><i class="fa-solid fa-x"></i></button>
 
                             <div class="tab-header-1 mb-3">
-                                <h6 class="fw-bold">Inquire Now</h6>
-                                <h5>Montana Glades</h5>
+                                <h5>Send us a Message</h5>
                             </div>
 
                             <div class="container-fluid ps-0 ms-0">
                                 <div class="row">
-                                    <div class="col-lg-6 mb-2">
-                                        <input type="text" class="form-control" placeholder="Name">
+                                    <div class="col mb-2">
+
+                                        <div class="form-floating">
+                                            <select class="form-select" id="floatingSelect" placeholder="Type of Inquiry" aria-label="Floating label select example">
+                                                <option>Sales Inquiry</option>
+                                                <option>Careers Inquiry</option>
+                                                <option>Other Feedback</option>
+                                            </select>
+                                            <label for="floatingSelect">Type of Inquiry</label>
+                                        </div>
                                     </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-5 mb-2">
+                                        <div class="btn-group w-100" role="group" aria-label="Button group with nested dropdown">
+                                            <div class="btn-group" role="group">
+                                                <button type="button" id="btn_prefix" class="btn border rounded border-end-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Mr
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" prefix="Mr">Mr</a></li>
+                                                    <li><a class="dropdown-item" prefix="Mrs">Mrs</a></li>
+                                                </ul>
+                                            </div>
+                                            <input type="text" class="form-control" style="border-top-left-radius:0; border-bottom-left-radius:0" placeholder="Firstname">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 mb-2">
+                                        <input type="text" class="form-control" placeholder="Lastname">
+                                    </div>
+                                    <div class="col-lg-2 mb-2">
+                                        <input type="text" class="form-control" placeholder="Age">
+                                    </div>
+                                </div>
+
+                                <div class="row">
                                     <div class="col-lg-6 mb-2">
                                         <input type="text" class="form-control" placeholder="Email">
                                     </div>
-                                </div>
-                                <div class="row">
                                     <div class="col-lg-6 mb-2">
-                                        <input type="text" class="form-control" placeholder="Phone">
-                                    </div>
-                                    <div class="col-lg-6 mb-2">
-                                        <input type="text" class="form-control" placeholder="Location">
+                                        <input type="text" class="form-control" placeholder="Phone Number">
                                     </div>
                                 </div>
+
                                 <div class="row row-cols-1">
                                     <div class="col mb-2">
                                         <textarea class="form-control" placeholder="Message" rows="5"></textarea>
                                     </div>
-                                    <div class="col tab-info-2">
-                                        <button class="btn border rounded ms-0 fw-light">Submit Now</button>
+                                    <div class="col">
+                                        <button class="btn border rounded ms-0 fw-light" style="
+                                        border-top-left-radius:20px !important; 
+                                        border-top-right-radius:4px !important; 
+                                        border-bottom-right-radius:20px !important; 
+                                        border-bottom-left-radius:4px !important; 
+                                        background:#2E72A9; 
+                                        font-size:10pt;
+                                        color:white">Submit Now</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-5 p-0">
+                        <!-- <div class="col-lg-5 p-0">
                             <div class="modal-right-panel p-5 h-100" style="color:#41560A">
-                                <div class="d-flex align-items-center mb-2" >
+                                <div class="d-flex align-items-center mb-2">
                                     <svg fill="#41560A" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="18" width="18">
                                         <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
                                     </svg>
@@ -53,7 +89,7 @@
 
                                 <p><span class="fw-bold">Corporate Office:</span> <br>NIDEL Building Jose Abad Santos Avenue Brgy. Dolores City of San Fernando Pampanga</p>
                                 <p><span class="fw-bold">Sales Office:</span> <br>Montana Glades Brgy. Calulut City of San Fernando Pampanga</p>
-                                
+
                                 <div class="d-flex align-items-center mt-3 mb-2">
                                     <svg fill="#41560A" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="18" width="18">
                                         <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
@@ -64,7 +100,7 @@
                                 </div>
                                 <p class="m-0">(Globe) 0926-047-5858 <br>(Smart) 0968-391-4533</p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

@@ -15092,6 +15092,11 @@ body {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
+#btn_prefix {
+    border-right: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
 @media all and (max-width: 768px) and (min-height: 375px) {
 
     #thumbnail-carousel,

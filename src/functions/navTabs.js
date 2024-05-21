@@ -207,6 +207,10 @@ const tabClick = () => {
 
 }
 
+const navClick = () => {
+
+}
+
 const renderOverviewAssets = () => {
 
     var output = '';

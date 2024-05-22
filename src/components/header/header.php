@@ -1,5 +1,5 @@
 <div class="header">
-    <div class="d-none d-lg-flex flex-column">
+    <div class="d-none d-xl-flex flex-column">
         <div class="d-flex justify-content-between">
             <img src="src/static/logo-sm.webp" class="header-logo" alt="">
             <div class="d-flex header-right-panel pt-2 position-relative">
@@ -59,7 +59,7 @@
 
     </div>
 
-    <div class="d-flex d-lg-none justify-content-center align-items-center w-100 position-relative" id="mobile-menu">
+    <div class="d-flex d-xl-none justify-content-center align-items-center w-100 position-relative" id="mobile-menu">
         <button class="btn position-absolute" id="btn-mobile-menu" data-bs-toggle="offcanvas" data-bs-target="#sideMenu" aria-controls="sideMenu">
             <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                 <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />

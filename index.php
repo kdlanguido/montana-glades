@@ -8,10 +8,6 @@
 
     <title>Montana Glades</title>
 
-    <!-- <link rel="preconnect" href="https://cdnjs.cloudflare.com"> -->
-    <!-- <link rel="preconnect" href="https://code.jquery.com"> -->
-    <!-- <link rel="preconnect" href="https://res.cloudinary.com"> -->
-
     <link rel="icon" type="image/x-icon" href="src/static/logo.webp">
     <link rel="stylesheet" href="src/styles/all.min.css">
 

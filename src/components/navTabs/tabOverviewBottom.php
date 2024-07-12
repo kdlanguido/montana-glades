@@ -36,7 +36,7 @@
     </section>
 
     <section class="tab-price mt-4">
-        <h1>₱1.8 m - ₱4.2 m</h1>
+        <h1>₱2.0m - ₱4.2m</h1>
         <p>Estimated Price as of 00/00/2024</p>
     </section>
 

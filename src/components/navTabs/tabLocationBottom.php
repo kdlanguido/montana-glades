@@ -33,7 +33,7 @@
             Mexico Toll Plaza - 2.6km
         </a>
 
-        <a class="location-btn-gotomaps btn border mb-2" target="_blank" href="https://maps.app.goo.gl/nAw1ho4wpPTFWJ7M7">
+        <a class="location-btn-gotomaps btn border mb-2" target="_blank" href="https://maps.app.goo.gl/HBFdihN47tBf1eCLA">
             Tourism Road - 3.6km
         </a>
 

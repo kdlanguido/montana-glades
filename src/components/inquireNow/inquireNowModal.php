@@ -56,7 +56,7 @@
 
                                 <div class="row">
                                     <div class="col-lg-6 mb-2">
-                                        <input type="text" class="form-control" placeholder="Username">
+                                        <input type="text" class="form-control" placeholder="Email Address">
                                     </div>
                                     <div class="col-lg-6 mb-2">
                                         <div class="input-group ">

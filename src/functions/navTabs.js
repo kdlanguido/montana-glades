@@ -20,7 +20,7 @@
 
 const assetsListOverview = [
     ['src/static/overview/MG_Clubhouse_Rendered_uohygj_arznuo_uirbkv.webp', 'MG Clubhouse'],
-    ['src/static/overview/MG_Clubhouse_Rendered_2_negxzv_b7wc0h_sb9324.webp', 'MG Clubhouse'],
+    // ['src/static/overview/MG_Clubhouse_Rendered_2_negxzv_b7wc0h_sb9324.webp', 'MG Clubhouse'],
     ['src/static/overview/Exercising_Lifestyle_yqs5xb_ytl22y_zvgypb.webp', 'MG Clubhouse'],
     ['src/static/overview/Biking_Happy_With_Road_zwmf14_kenvz1_imivmy.webp', 'MG Clubhouse'],
     ['src/static/overview/Village_Security_Entrance_vhpspo_owesbb_wm68hc.webp', 'MG Clubhouse'],

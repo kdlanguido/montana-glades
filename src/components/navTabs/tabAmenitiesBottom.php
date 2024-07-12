@@ -17,7 +17,7 @@
     <section class="mt-4">
         <ul style="list-style-type:disc">
             <li>Landscape Rotunda</li>
-            <li>Village Hall</li>
+            <li>Clubhouse</li>
             <li>Nature Parks</li>
             <li>Children's Playground</li>
             <li>Adult and kiddie pool</li>

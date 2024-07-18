@@ -114,7 +114,7 @@
                                 </section>
                                 <section class="tab-info mt-4">
                                     <h5>Phone numbers</h5>
-                                    <p>(Globe) 0926-047-5858;<br>(Smart)0968-391-4533</p>
+                                    <p>(Globe) 0926-047-5858<br>(Smart) 0968-391-4533</p>
                                 </section>
 
                                 <img src="src/static/logo.webp" alt="" class="d-none d-md-block">

@@ -17,294 +17,323 @@
 //     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694075/amenities/Jogging_Lifestyle_fxlire_vtqlbb_da21g2.webp', 'Jogging lifestyle'],
 // ];
 
-
 const assetsListOverview = [
-    ['src/static/overview/MG_Clubhouse_Rendered_uohygj_arznuo_uirbkv.webp', 'MG Clubhouse'],
-    // ['src/static/overview/MG_Clubhouse_Rendered_2_negxzv_b7wc0h_sb9324.webp', 'MG Clubhouse'],
-    ['src/static/overview/Exercising_Lifestyle_yqs5xb_ytl22y_zvgypb.webp', 'MG Clubhouse'],
-    ['src/static/overview/Biking_Happy_With_Road_zwmf14_kenvz1_imivmy.webp', 'MG Clubhouse'],
-    ['src/static/overview/Village_Security_Entrance_vhpspo_owesbb_wm68hc.webp', 'MG Clubhouse'],
-    ['src/static/overview/Family_Clapping_Main_Flier_wsdmyc_yfls4j_gwugvd.webp', 'MG Clubhouse'],
+  [
+    "src/static/overview/MG_Clubhouse_Rendered_uohygj_arznuo_uirbkv.webp",
+    "MG Clubhouse",
+  ],
+  // ['src/static/overview/MG_Clubhouse_Rendered_2_negxzv_b7wc0h_sb9324.webp', 'MG Clubhouse'],
+  [
+    "src/static/overview/Exercising_Lifestyle_yqs5xb_ytl22y_zvgypb.webp",
+    "MG Clubhouse",
+  ],
+  [
+    "src/static/overview/Biking_Happy_With_Road_zwmf14_kenvz1_imivmy.webp",
+    "MG Clubhouse",
+  ],
+  [
+    "src/static/overview/Village_Security_Entrance_vhpspo_owesbb_wm68hc.webp",
+    "MG Clubhouse",
+  ],
+  [
+    "src/static/overview/Family_Clapping_Main_Flier_wsdmyc_yfls4j_gwugvd.webp",
+    "MG Clubhouse",
+  ],
 ];
 
 const assetsListAmenities = [
-    ['src/static/amenities/Swimming_Pool_Lifestyle_1_bsltfn_t5leta.webp', 'Swimming pool'],
-    ['src/static/amenities/Meditation_Lifestyle_yjbvdl_nfs6to_dfl2mo.webp', 'MG Clubhouse'],
-    ['src/static/amenities/Basketball_Playing_t0xfix_cpqkjs_iaxebr.webp', 'MG Clubhouse'],
-    ['src/static/amenities/Biking_Lifestyle_biqwwh_ue4omf_adrvyc.webp', 'MG Clubhouse'],
-    ['src/static/amenities/Yoga_Nature_Lifestyle_fxnpsp_bwcul7_xi1y4c.webp', 'MG Clubhouse'],
-    ['src/static/amenities/Playground_Slide_with_Kid_zp9hin_andaui_jz5hna.webp', 'MG Clubhouse'],
-    ['src/static/amenities/Jogging_Lifestyle_fxlire_vtqlbb_da21g2.webp', 'MG Clubhouse'],
+  [
+    "src/static/amenities/Swimming_Pool_Lifestyle_1_bsltfn_t5leta.webp",
+    "Swimming pool",
+  ],
+  [
+    "src/static/amenities/Meditation_Lifestyle_yjbvdl_nfs6to_dfl2mo.webp",
+    "MG Clubhouse",
+  ],
+  [
+    "src/static/amenities/Basketball_Playing_t0xfix_cpqkjs_iaxebr.webp",
+    "MG Clubhouse",
+  ],
+  [
+    "src/static/amenities/Biking_Lifestyle_biqwwh_ue4omf_adrvyc.webp",
+    "MG Clubhouse",
+  ],
+  [
+    "src/static/amenities/Yoga_Nature_Lifestyle_fxnpsp_bwcul7_xi1y4c.webp",
+    "MG Clubhouse",
+  ],
+  [
+    "src/static/amenities/Playground_Slide_with_Kid_zp9hin_andaui_jz5hna.webp",
+    "MG Clubhouse",
+  ],
+  [
+    "src/static/amenities/Jogging_Lifestyle_fxlire_vtqlbb_da21g2.webp",
+    "MG Clubhouse",
+  ],
 ];
 
 interValRef = 0;
-interValRef = setInterval("checkState();", 100)
+interValRef = setInterval("checkState();", 100);
 
 amenitiesRendered = false;
-activeTabLabel = 'Overview'
+activeTabLabel = "Overview";
 
 function checkState() {
-    if (document.readyState == 'complete') {
-        renderPage()
-        clearInterval(interValRef);
-    }
+  if (document.readyState == "complete") {
+    renderPage();
+    clearInterval(interValRef);
+  }
 }
 
 $(document).ready(function () {
+  renderOverviewAssets();
+  tabFunctionality();
+  navLinksFunctionality();
+  loadSplideImages();
+  splideNavigate();
+  sideButtonHover();
+  tabClick();
 
-    renderOverviewAssets()
-    tabFunctionality();
-    navLinksFunctionality();
-    loadSplideImages();
-    splideNavigate();
-    sideButtonHover();
-    tabClick();
-
-    $('.location-btn-gotomaps').mouseover(function () {
-        $(this).find('i').css('color', '#fff')
-    }).mouseout(function () {
-        $(this).find('i').css('color', '#2F72A9')
+  $(".location-btn-gotomaps")
+    .mouseover(function () {
+      $(this).find("i").css("color", "#fff");
     })
+    .mouseout(function () {
+      $(this).find("i").css("color", "#2F72A9");
+    });
 
-    $('.btnSidebuttonFullscreen').click(function () {
-        $('#modal-fullscreen').modal('show')
-        renderFullscreenImages();
-    })
+  $(".btnSidebuttonFullscreen").click(function () {
+    $("#modal-fullscreen").modal("show");
+    renderFullscreenImages();
+  });
 
-    $('.btn_prefix').click(function () {
-        const prefix = $(this).attr('prefix')
-        $('#btn_prefix').text(prefix)
-    })
-
-})
+  $(".btn_prefix").click(function () {
+    const prefix = $(this).attr("prefix");
+    $("#btn_prefix").text(prefix);
+  });
+});
 
 const renderPage = () => {
-    $('#loading-page').hide()
-    $('#main-content').show()
-}
+  $("#loading-page").hide();
+  $("#main-content").show();
+};
 
 function loadSplideImages() {
+  const main = new Splide("#main-carousel", {
+    type: "fade",
+    rewind: true,
+    pagination: false,
+    arrows: false,
+    height: "80vh",
+    width: "100%",
+  });
 
-    const main = new Splide('#main-carousel', {
-        type: 'fade',
-        rewind: true,
-        pagination: false,
-        arrows: false,
-        height: '80vh',
-        width: '100%'
-    });
+  const thumbnails = new Splide("#thumbnail-carousel", {
+    fixedWidth: "200px",
+    fixedHeight: "auto",
+    width: "50%",
+    gap: 10,
+    rewind: true,
+    pagination: false,
+    isNavigation: true,
+  });
 
-    const thumbnails = new Splide('#thumbnail-carousel', {
-        fixedWidth: '200px',
-        fixedHeight: 'auto',
-        width: '50%',
-        gap: 10,
-        rewind: true,
-        pagination: false,
-        isNavigation: true,
-    });
+  main.sync(thumbnails);
+  main.mount();
 
-    main.sync(thumbnails);
-    main.mount();
-
-    thumbnails.mount();
-    thumbnails.on('moved', function (newIndex, prevIndex, destIndex) {
-        if (newIndex > 0) {
-            $('#tab-overview-logo').fadeOut(300)
-        } else {
-            $('#tab-overview-logo').show()
-        }
-    });
+  thumbnails.mount();
+  thumbnails.on("moved", function (newIndex, prevIndex, destIndex) {
+    if (newIndex > 0) {
+      $("#tab-overview-logo").fadeOut(300);
+    } else {
+      $("#tab-overview-logo").show();
+    }
+  });
 }
 
 const splideNavigate = () => {
-    $('.carousel-img').click(function () {
-        setTimeout(() => {
-            $('.tab-overview-img-main').attr('src', $(this).attr('src'))
-        }, 700);
-    })
-}
+  $(".carousel-img").click(function () {
+    setTimeout(() => {
+      $(".tab-overview-img-main").attr("src", $(this).attr("src"));
+    }, 700);
+  });
+};
 
 const sideButtonHover = () => {
-    $('.overview-side-button').mouseover(function () {
-        const sideButtonLabel = $(this).find('span')
-        $(sideButtonLabel).css('display', 'inline-block')
-        $(this).css('width', 'fit-content')
-    }).mouseout(function () {
-        const sideButtonLabel = $(this).find('span')
-        $(sideButtonLabel).css('display', 'none')
+  $(".overview-side-button")
+    .mouseover(function () {
+      const sideButtonLabel = $(this).find("span");
+      $(sideButtonLabel).css("display", "inline-block");
+      $(this).css("width", "fit-content");
     })
-}
+    .mouseout(function () {
+      const sideButtonLabel = $(this).find("span");
+      $(sideButtonLabel).css("display", "none");
+    });
+};
 
 const navLinksFunctionality = () => {
-    $('.nav-link-button').click(function () {
-        const tabId = $(this).attr('tab-id')
-        $(`#${tabId}`).trigger('click')
-        $('.nav-link-button').removeClass('active');
-        $(this).addClass('active');
-    })
-}
+  $(".nav-link-button").click(function () {
+    const tabId = $(this).attr("tab-id");
+
+    if (!$(this).hasClass("no-tab")) {
+      $(`#${tabId}`).trigger("click");
+      $(".nav-link-button").removeClass("active");
+      $(this).addClass("active");
+    }
+  });
+};
 
 const tabFunctionality = () => {
+  $(".nav-tab-buttons").find("span").remove();
+  $(".nav-tab-buttons").find("img").show();
 
-    $('.nav-tab-buttons').find('span').remove()
-    $('.nav-tab-buttons').find('img').show()
+  const activeTab = $(".nav-tab-buttons.active");
+  const activeTabIcon = activeTab.find("img");
+  $(".nav-link-button")
+    .removeClass("active")
+    .each((index, element) => {
+      if ($(element).attr("tab-id") === activeTab.attr("id")) {
+        $(element).addClass("active");
+      }
+    });
 
-    const activeTab = $('.nav-tab-buttons.active')
-    const activeTabIcon = activeTab.find('img')
-    $('.nav-link-button').removeClass('active').each((index, element) => {
-        if( $(element).attr('tab-id') === activeTab.attr('id')){
-            $(element).addClass('active')
-        }
-    })
+  activeTabIcon.hide();
+  activeTabLabel = activeTab.attr("tab-information");
 
-    activeTabIcon.hide();
-    activeTabLabel = activeTab.attr('tab-information')
+  const toAppend = `<span>${activeTabLabel}</span>`;
 
-    const toAppend = `<span>${activeTabLabel}</span>`
-
-    $(activeTab).append(toAppend)
-}
+  $(activeTab).append(toAppend);
+};
 
 const tabClick = () => {
+  $(".nav-tab-buttons").click(function () {
+    const tabButton = $(this);
 
-    $('.nav-tab-buttons').click(function () {
+    if (!$(tabButton).hasClass("no-tab")) {
+      tabFunctionality();
 
-        const tabButton = $(this)
+      $(".target-bottom-tabs").removeClass("show").removeClass("active");
 
-        if (!$(tabButton).hasClass('no-tab')) {
+      const targetBottomTab = $(tabButton).attr("tab-bottom");
 
-            tabFunctionality()
+      $(targetBottomTab).addClass("show").addClass("active");
+    }
 
-            $('.target-bottom-tabs').removeClass('show').removeClass('active')
+    const clickedFunctionName = $(tabButton).attr("tab-function");
 
-            const targetBottomTab = $(tabButton).attr('tab-bottom')
+    if (clickedFunctionName && window[clickedFunctionName]) {
+      window[clickedFunctionName]();
+    }
+  });
 
-            $(targetBottomTab).addClass('show').addClass('active')
-        }
+  $(".nav-link-button").click(function () {
+    const tabButton = $(this);
 
-        const clickedFunctionName = $(tabButton).attr('tab-function')
+    if (!$(tabButton).hasClass("no-tab")) {
+      tabFunctionality();
 
-        if (clickedFunctionName && window[clickedFunctionName]) {
-            window[clickedFunctionName]();
-        }
-    })
+      $(".target-bottom-tabs").removeClass("show").removeClass("active");
 
-    $('.nav-link-button').click(function () {
+      const targetBottomTab = $(tabButton).attr("tab-bottom");
 
-        const tabButton = $(this)
+      $(targetBottomTab).addClass("show").addClass("active");
+    }
 
-        if (!$(tabButton).hasClass('no-tab')) {
+    const clickedFunctionName = $(tabButton).attr("tab-function");
 
-            tabFunctionality()
+    if (clickedFunctionName && window[clickedFunctionName]) {
+      window[clickedFunctionName]();
+    }
+  });
+};
 
-            $('.target-bottom-tabs').removeClass('show').removeClass('active')
-
-            const targetBottomTab = $(tabButton).attr('tab-bottom')
-
-            $(targetBottomTab).addClass('show').addClass('active')
-        }
-
-        const clickedFunctionName = $(tabButton).attr('tab-function')
-
-        if (clickedFunctionName && window[clickedFunctionName]) {
-            window[clickedFunctionName]();
-        }
-    })
-
-}
-
-const navClick = () => {
-
-}
+const navClick = () => {};
 
 const renderOverviewAssets = () => {
+  var output = "";
 
-    var output = '';
-
-    assetsListOverview.map((image) => {
-        output += `
+  assetsListOverview.map((image) => {
+    output += `
             <li class="splide__slide me-1">
                 <img crossorigin="anonymous" referrerpolicy="no-referrer" class="carousel-img" src="${image[0]}" alt="${image[1]}">
             </li>
-        `
-    })
+        `;
+  });
 
-    $('#overview-main-carousel-splide').html(output)
-    $('#overview-thumbnail-carousel-splide').html(output)
-}
+  $("#overview-main-carousel-splide").html(output);
+  $("#overview-thumbnail-carousel-splide").html(output);
+};
 
 const getAmenitiesImages = () => {
-    return new Promise((resolve) => {
-        setTimeout(() => {
-            var output = '';
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      var output = "";
 
-            assetsListAmenities.map((image) => {
-                output += `
+      assetsListAmenities.map((image) => {
+        output += `
                     <li class="splide__slide me-1">
                         <img crossorigin="anonymous" referrerpolicy="no-referrer" class="carousel-img" src="${image[0]}" alt="${image[1]}">
                     </li>
-                `
-            })
+                `;
+      });
 
-            $('#amenities-main-carousel-splide').html(output)
-            $('#amenities-thumbnail-carousel-splide').html(output)
+      $("#amenities-main-carousel-splide").html(output);
+      $("#amenities-thumbnail-carousel-splide").html(output);
 
-            resolve(true);
-        }, 500);
-    })
-}
+      resolve(true);
+    }, 500);
+  });
+};
 
 function renderAmenities() {
+  if (!amenitiesRendered) {
+    $("#loading-page").show();
+    $("#main-content").hide();
 
-    if (!amenitiesRendered) {
-        $('#loading-page').show()
-        $('#main-content').hide()
-
-        getAmenitiesImages().then(() => {
-            loadAmenitiesImages();
-        }).then(() => {
-            setTimeout(() => {
-
-                $('#loading-page').hide()
-                $('#main-content').show()
-                amenitiesRendered = true;
-
-            }, 500);
-        })
-    }
+    getAmenitiesImages()
+      .then(() => {
+        loadAmenitiesImages();
+      })
+      .then(() => {
+        setTimeout(() => {
+          $("#loading-page").hide();
+          $("#main-content").show();
+          amenitiesRendered = true;
+        }, 500);
+      });
+  }
 }
 
 function loadAmenitiesImages() {
+  const main = new Splide("#amenities-main-carousel", {
+    type: "fade",
+    rewind: true,
+    pagination: false,
+    arrows: false,
+    height: "80vh",
+    width: "100%",
+  });
 
-    const main = new Splide('#amenities-main-carousel', {
-        type: 'fade',
-        rewind: true,
-        pagination: false,
-        arrows: false,
-        height: '80vh',
-        width: '100%'
-    });
+  const thumbnails = new Splide("#amenities-thumbnail-carousel", {
+    fixedWidth: "200px",
+    fixedHeight: "auto",
+    width: "50%",
+    gap: 10,
+    rewind: true,
+    pagination: false,
+    isNavigation: true,
+  });
 
-    const thumbnails = new Splide('#amenities-thumbnail-carousel', {
-        fixedWidth: '200px',
-        fixedHeight: 'auto',
-        width: '50%',
-        gap: 10,
-        rewind: true,
-        pagination: false,
-        isNavigation: true,
-    });
+  main.sync(thumbnails);
+  main.mount();
+  thumbnails.mount();
 
-    main.sync(thumbnails);
-    main.mount();
-    thumbnails.mount();
-
-    thumbnails.on('moved', function (newIndex, prevIndex, destIndex) {
-        if (newIndex > 0) {
-            $('#tab-amenities-logo').fadeOut(300)
-        } else {
-            $('#tab-amenities-logo').show()
-        }
-    });
+  thumbnails.on("moved", function (newIndex, prevIndex, destIndex) {
+    if (newIndex > 0) {
+      $("#tab-amenities-logo").fadeOut(300);
+    } else {
+      $("#tab-amenities-logo").show();
+    }
+  });
 }

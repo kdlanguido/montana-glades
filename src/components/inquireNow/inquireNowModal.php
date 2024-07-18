@@ -6,14 +6,8 @@
                     <div class="row">
                         <div class="col p-5 position-relative">
 
-                            <button class="btn position-absolute border rounded text-light" data-bs-dismiss="modal" style="right:10px; top:10px; z-index:100;">
-                                <svg fill="#00000cc" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                    <path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z" />
-                                </svg>
-                            </button>
-
                             <div class="tab-header-1 mb-3">
-                                <h5>Send us a Message</h5>
+                                <h5>Contact Us</h5>
                             </div>
 
                             <div class="container-fluid ps-0 ms-0">
@@ -32,7 +26,7 @@
                                 </div>
 
                                 <div class="row">
-                                    <div class="col-lg-5 mb-2">
+                                    <div class="col-lg-6 mb-2">
                                         <div class="btn-group w-100" role="group" aria-label="Button group with nested dropdown">
                                             <div class="btn-group" role="group">
                                                 <button type="button" id="btn_prefix" class="btn border rounded border-end-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -46,12 +40,10 @@
                                             <input type="text" class="form-control" style="border-top-left-radius:0; border-bottom-left-radius:0" placeholder="Firstname">
                                         </div>
                                     </div>
-                                    <div class="col-lg-5 mb-2">
+                                    <div class="col-lg-6 mb-2">
                                         <input type="text" class="form-control" placeholder="Lastname">
                                     </div>
-                                    <div class="col-lg-2 mb-2">
-                                        <input type="text" class="form-control" placeholder="Age">
-                                    </div>
+
                                 </div>
 
                                 <div class="row">
@@ -88,12 +80,12 @@
                                         </div>
                                     </div>
                                     <div class="col mt-4">
-                                        <div class="d-flex flex-column flex-md-row justify-content-between">
-                                            <form action="?" method="POST" style="width: 100%;">
+                                        <div class="d-flex flex-column flex-md-row justify-content-between align-items-end">
+                                            <form class="p-0 m-0" action="?" method="POST" style="width: 100%;">
                                                 <div class="g-recaptcha" data-sitekey="6LeOMeMpAAAAAGDMitm4HtanzZp3hgUnKj79RRS_"></div>
                                                 <br />
                                             </form>
-                                            <button class="btn border rounded ms-0 fw-light" id="btn_submit_inquiry">
+                                            <button class="btn border rounded ms-0 fw-light mb-4" id="btn_submit_inquiry">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
                                                     <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M20.5 3.5L3.5 9l6.5 3l7-5l-5 7l3 6.5z" />
                                                 </svg>
@@ -103,8 +95,26 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
-                        <!-- <div class="col-lg-5 p-0">
+
+                        <div class="col-lg-4 p-5" id="inquire_now_second_col">
+                            <div class="d-flex flex-column">
+                                <section class="tab-info">
+                                    <h5>Corporate Office</h5>
+                                    <p>NIDEL Building Jose Abad Santos Avenue Brgy. Dolores City of San Fernando Pampanga</p>
+                                </section>
+                                <section class="tab-info mt-4">
+                                    <h5>Phone numbers</h5>
+                                    <p>(Globe) 0926-047-5858;<br>(Smart)0968-391-4533</p>
+                                </section>
+
+                                <img src="src/static/logo.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-5 p-0">
                             <div class="modal-right-panel p-5 h-100" style="color:#41560A">
                                 <div class="d-flex align-items-center mb-2">
                                     <svg fill="#41560A" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="18" width="18">
@@ -129,10 +139,10 @@
                                 <p class="m-0">(Globe) 0926-047-5858 <br>(Smart) 0968-391-4533</p>
                             </div>
                         </div> -->
-                    </div>
-                </div>
             </div>
-
         </div>
     </div>
+
+</div>
+</div>
 </div>

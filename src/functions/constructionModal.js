@@ -1,6 +1,9 @@
 const constructionUpdatesAssets = [
-    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714802978/construction/pexels-pixabay-534220_ggl3mt.webp', 'Construction updates 1'],
-    ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714802976/construction/pexels-quang-nguyen-vinh-222549-2138126_oqathl.webp', 'Construction updates 2'],
+    ['src/static/construction/img1.webp', 'Construction updates 1'],
+    ['src/static/construction/img2.webp', 'Construction updates 2'],
+    ['src/static/construction/img3.webp', 'Construction updates 3'],
+    ['src/static/construction/img4.webp', 'Construction updates 4'],
+    ['src/static/construction/img5.webp', 'Construction updates 5'],
 ];
 
 constructionUpdatesRendered = false;

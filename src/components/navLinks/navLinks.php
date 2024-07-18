@@ -3,5 +3,5 @@
     <button class="nav-link-button btn" tab-bottom="#tabLocationBottom" tab-id="tabBtnLocation">Location</button>
     <button class="nav-link-button btn" tab-bottom="#tabAmenitiesBottom" tab-id="tabBtnAmenities">Project Features</button>
     <button class="nav-link-button btn" tab-bottom="#tabPlansBottom" tab-id="tabBtnSitePlan">Plans</button>
-    <button class="nav-link-button btn" data-bs-target="#modal-inquire-now" data-bs-toggle="modal">Inquire Now</button>
+    <button class="nav-link-button no-tab btn" data-bs-target="#modal-inquire-now" data-bs-toggle="modal">Inquire Now</button>
 </div>

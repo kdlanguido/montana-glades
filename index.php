@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="src/styles/navlinks.styles.css">
     <link rel="stylesheet" href="src/styles/navTabs.styles.css">
     <link rel="stylesheet" href="src/styles/inquireModal.styles.css"> -->
-    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LelcBIqAAAAAK-Q6Kk9Z-FliPkJGH-_nW4-nVXS"></script>
+    <!-- <script src="https://www.google.com/recaptcha/enterprise.js?render=6LelcBIqAAAAAK-Q6Kk9Z-FliPkJGH-_nW4-nVXS"></script> -->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 

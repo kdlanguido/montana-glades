@@ -14,7 +14,7 @@
                         <div class="col-12 col-lg-6 ms-0 px-0">
                             <div class="tab-header-1">
                                 <h6 class="fw-bold">MONTANA GLADES</h6>
-                                <h5>Land Development and Construction Updates ( As of May 24, 2024)</h5>
+                                <h5>Land Development and Construction Updates</h5>
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 ps-0">

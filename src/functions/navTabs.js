@@ -1,10 +1,10 @@
 const assetsListOverview = [
-  ["src/static/overview/Photo1.webp", "Photo 1"],
-  ["src/static/overview/Photo2.webp", "Photo 2"],
   ["src/static/overview/Photo3.webp", "Photo 3"],
   ["src/static/overview/Photo4.webp", "Photo 4"],
   ["src/static/overview/Photo5.webp", "Photo 5"],
   ["src/static/overview/Photo6.webp", "Photo 6"],
+  ["src/static/overview/Photo1.webp", "Photo 1"],
+  ["src/static/overview/Photo2.webp", "Photo 2"],
 ];
 
 const assetsListAmenities = [

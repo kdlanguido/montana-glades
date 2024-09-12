@@ -4,11 +4,11 @@ let fullscreenSplideInstance = null;
 let fullscreenSplideInstanceAmenities = null;
 
 const constructionUpdatesAssets = [
+  ["src/static/construction/img1.webp", "Construction updates 1"],
+  ["src/static/construction/img2.webp", "Construction updates 2"],
   ["src/static/construction/img3.webp", "Construction updates 3"],
   ["src/static/construction/img4.webp", "Construction updates 4"],
   ["src/static/construction/img5.webp", "Construction updates 5"],
-  ["src/static/construction/img1.webp", "Construction updates 1"],
-  ["src/static/construction/img2.webp", "Construction updates 2"],
 ];
 
 constructionUpdatesRendered = false;

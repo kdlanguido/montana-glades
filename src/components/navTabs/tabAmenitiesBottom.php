@@ -1,6 +1,11 @@
 <div class="target-bottom-tabs tab-pane fade p-5 m-0 position-relative" id="tabAmenitiesBottom" role="tabpanel">
 
+    <!-- <section class="tab-header-1">
+        <h5>The Modern Tropical</h5>
+    </section> -->
+
     <section class="tab-header-1">
+        <h6>Project Theme</h6>
         <h5>The Modern Tropical</h5>
     </section>
 
@@ -14,8 +19,12 @@
         <p class="fw-bold">Indispensable Materials: Perfect Combination of Glass and Wood</p>
     </section>
 
-    <section class="mt-4">
-        <ul style="list-style-type:disc">
+    <section class="tab-header-1 mt-4">
+        <p>Amenities and Facilities</p>
+    </section>
+
+    <section class="">
+        <ul style="list-style-type:disc;  color: #41560A;">
             <li>Landscape Rotunda</li>
             <li>Clubhouse</li>
             <li>Nature Parks</li>

@@ -42,6 +42,7 @@
         include "src/components/shareModal/shareModal.php";
         include "src/components/inquireNow/inquireNowModal.php";
         include "src/components/fullscreenModal/fullscreenModal.php";
+        include "src/components/fullscreenModalAmenities/fullscreenModal.php";
         include "src/components/sideMenu/sideMenu.php";
         ?>
     </section>

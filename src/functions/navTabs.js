@@ -1,44 +1,10 @@
-// const assetsListOverview = [
-//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694516/overview/MG_Clubhouse_Rendered_uohygj_arznuo_uirbkv.webp', 'MG Clubhouse'],
-//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694534/overview/MG_Clubhouse_Rendered_2_negxzv_b7wc0h_sb9324.webp', 'MG Clubhouse'],
-//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694567/overview/Exercising_Lifestyle_yqs5xb_ytl22y_zvgypb.webp', 'Exercising Lifestyle'],
-//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694456/overview/Biking_Happy_With_Road_zwmf14_kenvz1_imivmy.webp', 'Biking Happy With Road'],
-//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694603/overview/Village_Security_Entrance_vhpspo_owesbb_wm68hc.webp', 'Village is secured'],
-//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694638/overview/Family_Clapping_Main_Flier_wsdmyc_yfls4j_gwugvd.webp', 'Happy Family']
-// ];
-
-// const assetsListAmenities = [
-//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693829/amenities/Swimming_Pool_Lifestyle_1_bsltfn_t5leta.webp', 'Swimming pool view'],
-//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693910/amenities/Meditation_Lifestyle_yjbvdl_nfs6to_dfl2mo.webp', 'Meditate freely'],
-//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693542/amenities/Basketball_Playing_t0xfix_cpqkjs_iaxebr.webp', 'Basketball court'],
-//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693959/amenities/Biking_Lifestyle_biqwwh_ue4omf_adrvyc.webp', 'Biking freely'],
-//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714693999/amenities/Yoga_Nature_Lifestyle_fxnpsp_bwcul7_xi1y4c.webp', 'Yoga freely'],
-//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694182/amenities/Playground_Slide_with_Kid_zp9hin_andaui_jz5hna.webp', 'Playground slide with kid'],
-//     ['https://res.cloudinary.com/dlobngrjy/image/upload/v1714694075/amenities/Jogging_Lifestyle_fxlire_vtqlbb_da21g2.webp', 'Jogging lifestyle'],
-// ];
-
 const assetsListOverview = [
-  [
-    "src/static/overview/MG_Clubhouse_Rendered_uohygj_arznuo_uirbkv.webp",
-    "MG Clubhouse",
-  ],
-  // ['src/static/overview/MG_Clubhouse_Rendered_2_negxzv_b7wc0h_sb9324.webp', 'MG Clubhouse'],
-  [
-    "src/static/overview/Exercising_Lifestyle_yqs5xb_ytl22y_zvgypb.webp",
-    "MG Clubhouse",
-  ],
-  [
-    "src/static/overview/Biking_Happy_With_Road_zwmf14_kenvz1_imivmy.webp",
-    "MG Clubhouse",
-  ],
-  [
-    "src/static/overview/Village_Security_Entrance_vhpspo_owesbb_wm68hc.webp",
-    "MG Clubhouse",
-  ],
-  [
-    "src/static/overview/Family_Clapping_Main_Flier_wsdmyc_yfls4j_gwugvd.webp",
-    "MG Clubhouse",
-  ],
+  ["src/static/overview/Photo1.webp", "Photo 1"],
+  ["src/static/overview/Photo2.webp", "Photo 2"],
+  ["src/static/overview/Photo3.webp", "Photo 3"],
+  ["src/static/overview/Photo4.webp", "Photo 4"],
+  ["src/static/overview/Photo5.webp", "Photo 5"],
+  ["src/static/overview/Photo6.webp", "Photo 6"],
 ];
 
 const assetsListAmenities = [
@@ -86,13 +52,14 @@ function checkState() {
 }
 
 $(document).ready(function () {
+  renderAmenities();
   renderOverviewAssets();
   tabFunctionality();
   navLinksFunctionality();
-  loadSplideImages();
   splideNavigate();
   sideButtonHover();
   tabClick();
+  loadSplideImages();
 
   $(".location-btn-gotomaps")
     .mouseover(function () {
@@ -102,8 +69,13 @@ $(document).ready(function () {
       $(this).find("i").css("color", "#2F72A9");
     });
 
-  $(".btnSidebuttonFullscreen").click(function () {
+  $("#btnSidebuttonFullscreen").click(function () {
     $("#modal-fullscreen").modal("show");
+    renderFullscreenImages();
+  });
+
+  $("#btnSidebuttonFullscreenAmenities").click(function () {
+    $("#modal-fullscreen-amenities").modal("show");
     renderFullscreenImages();
   });
 
@@ -118,36 +90,64 @@ const renderPage = () => {
   $("#main-content").show();
 };
 
+// function loadSplideImages() {
+//   const main = new Splide("#main-carousel", {
+//     type: "loop",
+//     rewind: true,
+//     autoplay: true,
+//     interval: 3000,
+//     arrows: true,
+//     height: "80vh",
+//     width: "100%",
+//     start: 0,
+//   });
+
+//   const thumbnails = new Splide("#thumbnail-carousel", {
+//     fixedWidth: "100px",
+//     fixedHeight: "auto",
+//     width: "80%",
+//     gap: 10,
+//     rewind: true,
+//     pagination: false,
+//     isNavigation: true,
+//   });
+
+//   main.sync(thumbnails);
+//   main.mount();
+//   thumbnails.mount();
+
+// thumbnails.on("moved", function (newIndex, prevIndex, destIndex) {
+//   activeSlideshowIndex = newIndex;
+// });
+// }
+
 function loadSplideImages() {
   const main = new Splide("#main-carousel", {
     type: "fade",
-    rewind: true,
     pagination: false,
-    arrows: false,
+    rewind: true,
+    autoplay: true,
+    interval: 3000,
+    arrows: true,
     height: "80vh",
     width: "100%",
+    start: 0,
   });
 
   const thumbnails = new Splide("#thumbnail-carousel", {
-    fixedWidth: "200px",
+    fixedWidth: "100px",
     fixedHeight: "auto",
-    width: "50%",
+    width: "80%",
     gap: 10,
     rewind: true,
     pagination: false,
     isNavigation: true,
   });
 
-  main.sync(thumbnails);
-  main.mount();
+  main.sync(thumbnails).mount();
 
-  thumbnails.mount();
-  thumbnails.on("moved", function (newIndex, prevIndex, destIndex) {
-    if (newIndex > 0) {
-      $("#tab-overview-logo").fadeOut(300);
-    } else {
-      $("#tab-overview-logo").show();
-    }
+  thumbnails.mount().on("moved", function (newIndex, prevIndex, destIndex) {
+    activeSlideshowIndex = newIndex;
   });
 }
 
@@ -177,6 +177,16 @@ const navLinksFunctionality = () => {
     const tabId = $(this).attr("tab-id");
 
     if (!$(this).hasClass("no-tab")) {
+      if (tabId == "tabBtnAmenities") {
+        $("#btnSidebuttonFullscreenAmenities").removeClass("d-none");
+        $("#btnSidebuttonFullscreen").addClass("d-none");
+      }
+
+      if (tabId == "tabBtnProject") {
+        $("#btnSidebuttonFullscreenAmenities").addClass("d-none");
+        $("#btnSidebuttonFullscreen").removeClass("d-none");
+      }
+
       $(`#${tabId}`).trigger("click");
       $(".nav-link-button").removeClass("active");
       $(this).addClass("active");
@@ -221,6 +231,19 @@ const tabClick = () => {
     }
 
     const clickedFunctionName = $(tabButton).attr("tab-function");
+    const tabId = $(tabButton).attr("tab-bottom");
+
+    console.log(tabId);
+
+    if (tabId == "#tabAmenitiesBottom") {
+      $("#btnSidebuttonFullscreenAmenities").removeClass("d-none");
+      $("#btnSidebuttonFullscreen").addClass("d-none");
+    }
+
+    if (tabId == "#tabOverviewBottom") {
+      $("#btnSidebuttonFullscreenAmenities").addClass("d-none");
+      $("#btnSidebuttonFullscreen").removeClass("d-none");
+    }
 
     if (clickedFunctionName && window[clickedFunctionName]) {
       window[clickedFunctionName]();
@@ -251,18 +274,17 @@ const tabClick = () => {
 const navClick = () => {};
 
 const renderOverviewAssets = () => {
-  var output = "";
-
+  var assets_output = "";
   assetsListOverview.map((image) => {
-    output += `
+    assets_output += `
             <li class="splide__slide me-1">
                 <img crossorigin="anonymous" referrerpolicy="no-referrer" class="carousel-img" src="${image[0]}" alt="${image[1]}">
             </li>
         `;
   });
 
-  $("#overview-main-carousel-splide").html(output);
-  $("#overview-thumbnail-carousel-splide").html(output);
+  $("#overview-main-carousel-splide").html(assets_output);
+  $("#overview-thumbnail-carousel-splide").html(assets_output);
 };
 
 const getAmenitiesImages = () => {
@@ -309,6 +331,8 @@ function loadAmenitiesImages() {
   const main = new Splide("#amenities-main-carousel", {
     type: "fade",
     rewind: true,
+    autoplay: true,
+    interval: 3000,
     pagination: false,
     arrows: false,
     height: "80vh",
@@ -316,7 +340,7 @@ function loadAmenitiesImages() {
   });
 
   const thumbnails = new Splide("#amenities-thumbnail-carousel", {
-    fixedWidth: "200px",
+    fixedWidth: "100px",
     fixedHeight: "auto",
     width: "50%",
     gap: 10,
@@ -330,10 +354,6 @@ function loadAmenitiesImages() {
   thumbnails.mount();
 
   thumbnails.on("moved", function (newIndex, prevIndex, destIndex) {
-    if (newIndex > 0) {
-      $("#tab-amenities-logo").fadeOut(300);
-    } else {
-      $("#tab-amenities-logo").show();
-    }
+    activeSlideshowIndexAmenities = newIndex;
   });
 }

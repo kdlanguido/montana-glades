@@ -56,6 +56,19 @@
 
                                 <div class="row">
                                     <div class="col-lg-6 mb-2">
+                                        <div class="form-floating ">
+                                            <input type="date" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                            <label for="floatingInput">Birth Date</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mb-2">
+                                        <input type="text" class="form-control" placeholder="Age">
+                                    </div>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-6 mb-2">
                                         <input type="text" class="form-control" placeholder="Email Address">
                                     </div>
                                     <div class="col-lg-6 mb-2">
@@ -118,7 +131,7 @@
                                     <p>(Globe) 0926-047-5858<br>(Smart) 0968-391-4533</p>
                                 </section>
 
-                                <img src="src/static/logo.webp" alt="" class="d-none d-md-block">
+                                <img src="src/static/logo.webp" alt="" class="d-none d-lg-block">
                             </div>
                         </div>
                     </div>

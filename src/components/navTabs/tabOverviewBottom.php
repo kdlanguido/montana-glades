@@ -27,7 +27,7 @@
         <br>
         <p>Project Address: Brgy. Calulut, City of San Fernando Pampanga</p>
 
-        <p>Completion Date: October 2026 Phase 1 (Stand in Dates pending LTS)</p>
+        <p>Completion Date:  LD - September 2028</p>
 
         <p>Project Developer: City Lakeside Development Corporation</p>
 
@@ -37,16 +37,19 @@
 
     <section class="tab-price mt-4">
         <h1>₱2.0m - ₱4.2m</h1>
-        <p>Estimated Price as of 00/00/2024</p>
+        <p>March 2025</p>
     </section>
 
     <section class="tab-info mt-4">
-        <p>HLURB LS No. 012345<br>Ad Approval No.: AA-R3-012345-6789</p>
+        <p>DHSUD LTS No.:0001373
+            <br>
+            Ads Approval No.: DHSUD-R3-AA-2025/03-002</p>
     </section>
 
     <section class="tab-info-2 mt-4">
         <h1>Online Flyer</h1>
-        <button class="btn border rounded ms-0">Montana Glades</button>
+        <a class="btn border rounded ms-0" id="btnDownloadFlyer"  href="https://drive.google.com/uc?export=download&id=1rUSKQNiheeVAoUi9ZzrLcqGXangscZ4B
+">Montana Glades</a>
     </section>
 
 </div>

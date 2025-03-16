@@ -83,12 +83,15 @@ $(document).ready(function () {
     const prefix = $(this).attr("prefix");
     $("#btn_prefix").text(prefix);
   });
+
 });
 
 const renderPage = () => {
   $("#loading-page").hide();
   $("#main-content").show();
 };
+
+
 
 // function loadSplideImages() {
 //   const main = new Splide("#main-carousel", {
@@ -271,7 +274,7 @@ const tabClick = () => {
   });
 };
 
-const navClick = () => {};
+const navClick = () => { };
 
 const renderOverviewAssets = () => {
   var assets_output = "";

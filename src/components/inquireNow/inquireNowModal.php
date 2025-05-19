@@ -102,10 +102,12 @@
                                     </div>
                                     <div class="col mt-4">
                                         <div class="d-flex flex-column flex-md-row justify-content-between align-items-end">
-                                            <form action="?" method="POST">
-                                                <div class="g-recaptcha" data-sitekey="6LelcBIqAAAAAK-Q6Kk9Z-FliPkJGH-_nW4-nVXS">
-                                                </div>
-                                            </form>
+                                        <html>
+                                        <form action="" method="POST">
+      <div class="g-recaptcha" data-sitekey="6LeOMeMpAAAAAGDMitm4HtanzZp3hgUnKj79RRS_" data-action="LOGIN"></div>
+      <br/>
+      <input type="submit" value="Submit">
+    </form>
 
                                             <button class="btn border rounded ms-0 fw-light mb-4" id="btn_submit_inquiry">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">

@@ -105,9 +105,14 @@
                                         <form action="?" method="POST">
                                             <div class="g-recaptcha" data-sitekey="6LeOMeMpAAAAAGDMitm4HtanzZp3hgUnKj79RRS_"></div>
                                             <br/>
-                                            <input type="submit" value="Submit">
+                                            <input type="submit" value="Submit" class="d-none">
                                         </form>
-
+                                        <button class="btn border rounded ms-0 fw-light mb-4" id="btn_submit_inquiry">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                                                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M20.5 3.5L3.5 9l6.5 3l7-5l-5 7l3 6.5z" />
+                                                </svg>
+                                                Submit
+                                            </button>
                                           
                                         </div>
                                     </div>

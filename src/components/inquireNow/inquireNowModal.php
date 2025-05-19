@@ -103,7 +103,7 @@
                                     <div class="col mt-4">
                                         <div class="d-flex flex-column flex-md-row justify-content-between align-items-end">
                                         <form action="?" method="POST">
-                                            <div class="g-recaptcha" data-sitekey="6LdSK0ArAAAAAAupwlTPjFf-PXFfOLsS35QYrF9n"></div>
+                                            <div class="g-recaptcha" data-sitekey="6LeOMeMpAAAAAGDMitm4HtanzZp3hgUnKj79RRS_"></div>
                                             <br/>
                                             <input type="submit" value="Submit">
                                         </form>

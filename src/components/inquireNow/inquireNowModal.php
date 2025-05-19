@@ -102,19 +102,13 @@
                                     </div>
                                     <div class="col mt-4">
                                         <div class="d-flex flex-column flex-md-row justify-content-between align-items-end">
-                                        <html>
-                                        <form action="" method="POST">
-      <div class="g-recaptcha" data-sitekey="6LeOMeMpAAAAAGDMitm4HtanzZp3hgUnKj79RRS_" data-action="LOGIN"></div>
-      <br/>
-      <input type="submit" value="Submit">
-    </form>
+                                        <form action="?" method="POST">
+                                            <div class="g-recaptcha" data-sitekey="6LdSK0ArAAAAAAupwlTPjFf-PXFfOLsS35QYrF9n"></div>
+                                            <br/>
+                                            <input type="submit" value="Submit">
+                                        </form>
 
-                                            <button class="btn border rounded ms-0 fw-light mb-4" id="btn_submit_inquiry">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
-                                                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M20.5 3.5L3.5 9l6.5 3l7-5l-5 7l3 6.5z" />
-                                                </svg>
-                                                Submit
-                                            </button>
+                                          
                                         </div>
                                     </div>
                                 </div>

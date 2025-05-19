@@ -54,7 +54,7 @@
     <script src="src/functions/constructionModal.js"></script>
     <script src="src/functions/navTabs.js"></script>
     <script src="src/functions/fullscreenModal.js"></script>
-
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 </body>
 
 </html>
